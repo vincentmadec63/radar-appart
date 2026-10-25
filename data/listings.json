@@ -1,5 +1,5 @@
 {
- "updatedAt": null,
+ "updatedAt": "2026-10-25T10:22:41.090Z",
  "listings": [
   {
    "example": true,
@@ -125,49 +125,6 @@
   {
    "example": true,
    "sale": "vente",
-   "floor": 0,
-   "exterieur": true,
-   "parking": true,
-   "ascenseur": null,
-   "cave": true,
-   "charges": null,
-   "agency": null,
-   "publishedAt": null,
-   "street": null,
-   "postcode": "5100",
-   "id": "ex4",
-   "source": "immoweb",
-   "url": "https://www.immoweb.be/fr",
-   "sources": [
-    {
-     "name": "immoweb",
-     "url": "https://www.immoweb.be/fr"
-    }
-   ],
-   "title": "Rez-de-jardin 3 chambres",
-   "commune": "Wépion",
-   "price": 299000,
-   "priceHistory": [
-    {
-     "d": "2026-10-12T07:20:00Z",
-     "p": 315000
-    },
-    {
-     "d": "2026-10-23T17:10:00Z",
-     "p": 299000
-    }
-   ],
-   "surface": 118,
-   "bedrooms": 3,
-   "peb": "C",
-   "photo": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=70",
-   "extrait": "Jardin privatif de 60 m², garage fermé, petite copropriété de 6 logements.",
-   "firstSeen": "2026-10-12T07:20:00Z",
-   "lastSeen": "2026-10-23T17:10:00Z"
-  },
-  {
-   "example": true,
-   "sale": "vente",
    "floor": 1,
    "exterieur": false,
    "parking": true,
@@ -242,6 +199,49 @@
    "extrait": "Résidence neuve, terrasse de 15 m², pompe à chaleur, livraison au printemps 2027.",
    "firstSeen": "2026-10-20T16:45:00Z",
    "lastSeen": "2026-10-20T16:45:00Z"
+  },
+  {
+   "example": true,
+   "sale": "vente",
+   "floor": 0,
+   "exterieur": true,
+   "parking": true,
+   "ascenseur": null,
+   "cave": true,
+   "charges": null,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5100",
+   "id": "ex4",
+   "source": "immoweb",
+   "url": "https://www.immoweb.be/fr",
+   "sources": [
+    {
+     "name": "immoweb",
+     "url": "https://www.immoweb.be/fr"
+    }
+   ],
+   "title": "Rez-de-jardin 3 chambres",
+   "commune": "Wépion",
+   "price": 299000,
+   "priceHistory": [
+    {
+     "d": "2026-10-12T07:20:00Z",
+     "p": 315000
+    },
+    {
+     "d": "2026-10-23T17:10:00Z",
+     "p": 299000
+    }
+   ],
+   "surface": 118,
+   "bedrooms": 3,
+   "peb": "C",
+   "photo": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=70",
+   "extrait": "Jardin privatif de 60 m², garage fermé, petite copropriété de 6 logements.",
+   "firstSeen": "2026-10-12T07:20:00Z",
+   "lastSeen": "2026-10-23T17:10:00Z"
   },
   {
    "example": true,
