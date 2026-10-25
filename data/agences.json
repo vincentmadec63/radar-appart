@@ -8,14 +8,14 @@
  {"slug": "hvimmo", "nom": "HV Immobilier", "liste": "https://www.hvimmobilier.be/fr/2/chercher-bien/a-vendre", "base": "https://www.hvimmobilier.be", "plateforme": "infinitescroll"},
  {"slug": "abras", "nom": "Abras Immobilier", "liste": "https://abras-immo.be/achat,appartements", "base": "https://abras-immo.be"},
  {"slug": "stag", "nom": "Stag", "liste": "https://www.stag.immo/biens-a-vendre", "base": "https://www.stag.immo"},
- {"slug": "capsud", "nom": "Cap Sud Namur", "liste": null, "base": null},
+ {"slug": "capsud", "nom": "Cap Sud Namur", "liste": null,"base": null},
  {"slug": "weinvest", "nom": "We Invest Namur", "liste": "https://weinvest.be/fr-BE/properties/for-sale", "base": "https://weinvest.be"},
- {"slug": "era", "nom": "ERA (Namur)", "liste": null, "base": null},
- {"slug": "edimmo", "nom": "ED Immo", "liste": null, "base": null},
- {"slug": "marlair", "nom": "Pierre Marlair & Co", "liste": "https://www.pierremarlair.be/", "base": "https://www.pierremarlair.be"},
+ {"slug": "era", "nom": "ERA (Namur)", "liste": null,"base": null},
+ {"slug": "edimmo", "nom": "ED Immo", "liste": null,"base": null},
+ {"slug": "marlair", "nom": "Pierre Marlair & Co", "liste": "https://www.pierremarlair.be/page/acheter-lien.html", "base": "https://www.pierremarlair.be"},
  {"slug": "latourpetit", "nom": "Latour & Petit", "liste": "https://latouretpetit.be/fr", "base": "https://latouretpetit.be"},
- {"slug": "adimmo", "nom": "AD-Immo", "liste": null, "base": null},
- {"slug": "trevi", "nom": "Trevi Namur", "liste": "https://www.trevi.be/en/find-an-agency/namur/agence-trevi-imact-presentation-de-lagence", "base": "https://www.trevi.be"},
+ {"slug": "adimmo", "nom": "AD-Immo", "liste": null,"base": null},
+ {"slug": "trevi", "nom": "Trevi Namur", "liste": "https://www.trevi.be/fr/namur", "base": "https://www.trevi.be", "plateforme": "js", "remarque": "Pas de liste par agence sans JavaScript ; les biens Trevi sont aussi sur Immoweb."},
  {"slug": "innovexpert", "nom": "Innov’Expert", "liste": "https://www.innov-expert.be/biens-immobiliers/a-vendre/", "base": "https://www.innov-expert.be"},
- {"slug": "century21", "nom": "Century 21", "liste": "https://www.century21.be/fr/a-vendre/appartement/namur-5000", "base": "https://www.century21.be"}
+ {"slug": "century21", "nom": "Century 21", "liste": "https://www.century21.be/fr/a-vendre/appartement", "base": "https://www.century21.be", "plateforme": "js", "remarque": "Annonces chargées en JavaScript ; les biens Century 21 sont aussi sur Immoweb."}
 ]

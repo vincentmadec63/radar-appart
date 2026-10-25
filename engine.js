@@ -153,7 +153,9 @@
   function canonUrl(u) {
     try {
       var x = new URL(u);
-      return (x.protocol + '//' + x.host.toLowerCase().replace(/^m\./, 'www.') + x.pathname.replace(/\/+$/, '')).toLowerCase();
+      // Certains sites d'agence (Innov'Expert…) ne distinguent leurs fiches que par ?id=… : on le garde.
+      var id = x.searchParams.get('id');
+      return (x.protocol + '//' + x.host.toLowerCase().replace(/^m\./, 'www.') + x.pathname.replace(/\/+$/, '') + (id ? '?id=' + id : '')).toLowerCase();
     } catch (e) { return String(u || '').split(/[?#]/)[0].toLowerCase(); }
   }
 
