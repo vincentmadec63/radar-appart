@@ -1,9 +1,10 @@
 {
- "lastRun": "2026-10-25T17:38:16.125Z",
- "added": 0,
+ "lastRun": "2026-10-25T17:43:22.157Z",
+ "added": 13,
  "priceDrops": 0,
- "total": 7,
+ "total": 20,
  "sources": {
+  "innovexpert": 13,
   "gilmont": 1,
   "simmo": 4,
   "stag": 2
@@ -17,12 +18,12 @@
   "Meusardennes : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
   "Nam Property : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
   "HV Immobilier : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
+  "Trevi Namur : annonces illisibles (chargées en JavaScript)",
+  "Century 21 : annonces illisibles (chargées en JavaScript)",
   "Abras Immobilier : aucun bien en vente affiché",
-  "Pierre Marlair & Co : aucun bien listé sur la page d'accueil (rubrique « Acheter » à vérifier)",
-  "Trevi Namur : la page enregistrée est la présentation de l'agence, sans biens",
-  "Century 21 : site inaccessible (erreur client)",
-  "Innov’Expert : 19 appartements repérés mais non importés — leurs fiches ne diffèrent que par ?id=…, que le moteur (canonUrl dans engine.js) ignore, ce qui les fusionnerait en une seule annonce",
-  "Agences : 8 annonce(s) retenue(s) sur 15 sites lus"
+  "Easyhome : les 2 appartements listés (Jambes, Andenne) sont vendus selon leur fiche",
+  "Innov’Expert : 7 fiches renvoient vers une autre annonce (Erpent) ; ajoutées sans photo d'après la liste « à vendre »",
+  "Agences : 13 annonce(s) retenue(s) sur 15 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }

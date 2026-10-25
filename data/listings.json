@@ -1,6 +1,500 @@
 {
- "updatedAt": "2026-10-25T17:38:16.125Z",
+ "updatedAt": "2026-10-25T17:43:22.157Z",
  "listings": [
+  {
+   "id": "1c6asdl",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=4038&bien=RUE%20DU%20FAYS%2014%20COURRI%C3%88RE",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=4038&bien=RUE%20DU%20FAYS%2014%20COURRI%C3%88RE"
+    }
+   ],
+   "price": 169000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 169000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 2 chambres – Courrière",
+   "commune": "Courrière",
+   "postcode": "5336",
+   "surface": 70,
+   "bedrooms": 2,
+   "floor": 1,
+   "peb": "E",
+   "exterieur": false,
+   "parking": false,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/1893-20231018170855/0/081/E3639262082039300170_4038AL.jpg?639262017698820000",
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": "Appartement de deux chambres, lumineux et spacieux, bien situé près des commodités.",
+   "sale": "vente",
+   "street": "Rue du Fays 14"
+  },
+  {
+   "id": "1f86f0a",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=4035&bien=RUE%20DE%20DAVE%20247%20/%202%20JAMBES",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=4035&bien=RUE%20DE%20DAVE%20247%20/%202%20JAMBES"
+    }
+   ],
+   "price": 95000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 95000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Studio – Jambes",
+   "commune": "Jambes",
+   "postcode": "5100",
+   "surface": 34,
+   "bedrooms": 0,
+   "floor": 0,
+   "peb": "F",
+   "exterieur": false,
+   "parking": null,
+   "ascenseur": false,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/1893-20231018170855/0/081/E1639257660598752120_4035AL.jpg?639257590087290000",
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": "Il vous séduira par son bon état général, sa luminosité et son agencement pratique.",
+   "sale": "vente",
+   "street": "Rue de Dave 247/2"
+  },
+  {
+   "id": "1fi60p9",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=4034&bien=RUE%20DE%20DAVE%20247%20/%204%20JAMBES",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=4034&bien=RUE%20DE%20DAVE%20247%20/%204%20JAMBES"
+    }
+   ],
+   "price": 85000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 85000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Studio – Jambes",
+   "commune": "Jambes",
+   "postcode": "5100",
+   "surface": 26,
+   "bedrooms": 0,
+   "floor": null,
+   "peb": "G",
+   "exterieur": false,
+   "parking": false,
+   "ascenseur": false,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/1893-20231018170855/0/081/E3639257602013376030_4034AL.jpg?639257532870260000",
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": "Charmant studio de +/- 26 m², situé à l'entresol d'une petite copropriété saine et bien tenue.",
+   "sale": "vente",
+   "street": "Rue de Dave 247/4"
+  },
+  {
+   "id": "923c68",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=4011&bien=RUE%20DE%20L%27AISE%202%20/%203%20JEMEPPE-SUR-SAMBRE",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=4011&bien=RUE%20DE%20L%27AISE%202%20/%203%20JEMEPPE-SUR-SAMBRE"
+    }
+   ],
+   "price": 155000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 155000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
+   "commune": "Jemeppe-sur-Sambre",
+   "postcode": "5190",
+   "surface": 131,
+   "bedrooms": 1,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Rue de l'Aise 2/3"
+  },
+  {
+   "id": "1e4b5qd",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=4009&bien=PLACE%20COMMUNALE%204%20/%202%20JEMEPPE-SUR-SAMBRE",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=4009&bien=PLACE%20COMMUNALE%204%20/%202%20JEMEPPE-SUR-SAMBRE"
+    }
+   ],
+   "price": 175000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 175000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
+   "commune": "Jemeppe-sur-Sambre",
+   "postcode": "5190",
+   "surface": 53,
+   "bedrooms": 1,
+   "floor": 2,
+   "peb": "B",
+   "exterieur": false,
+   "parking": true,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/1893-20231018170855/0/080/E1639239402709860564_4009AL.jpg?639244588342690000",
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": "Il vous séduira par son bon état général, ses aménagements récents et sa luminosité.",
+   "sale": "vente",
+   "street": "Place Communale 4/2"
+  },
+  {
+   "id": "1dubk1e",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=4008&bien=PLACE%20COMMUNALE%203%20/%202%20JEMEPPE-SUR-SAMBRE",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=4008&bien=PLACE%20COMMUNALE%203%20/%202%20JEMEPPE-SUR-SAMBRE"
+    }
+   ],
+   "price": 189000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 189000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
+   "commune": "Jemeppe-sur-Sambre",
+   "postcode": "5190",
+   "surface": 72,
+   "bedrooms": 2,
+   "floor": 2,
+   "peb": "B",
+   "exterieur": true,
+   "parking": true,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/1893-20231018170855/0/080/E1639238807150600629_4008AL.jpg?639245383751170000",
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": "Il vous séduira par son bon état général, ses aménagements récents et sa luminosité.",
+   "sale": "vente",
+   "street": "Place Communale 3/2"
+  },
+  {
+   "id": "1nihjr9",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3970&bien=PLACE%20MAURICE%20SERVAIS%204%20NAMUR",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3970&bien=PLACE%20MAURICE%20SERVAIS%204%20NAMUR"
+    }
+   ],
+   "price": 239000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 239000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 2 chambres – Namur",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 87,
+   "bedrooms": 2,
+   "floor": 5,
+   "peb": "C",
+   "exterieur": false,
+   "parking": null,
+   "ascenseur": true,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/1893-20231018170855/0/077/E3639205019497705153_3970AL.jpg?639244899310500000",
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": "Charmant et lumineux appartement 2 chambres, entièrement rénové.",
+   "sale": "vente",
+   "street": "Place Maurice Servais 4"
+  },
+  {
+   "id": "kllwes",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3854&bien=PLACE%20JOS%C3%89PHINE-CHARLOTTE%2026%20JAMBES",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3854&bien=PLACE%20JOS%C3%89PHINE-CHARLOTTE%2026%20JAMBES"
+    }
+   ],
+   "price": 235000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 235000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 2 chambres – Jambes",
+   "commune": "Jambes",
+   "postcode": "5100",
+   "surface": 77,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Place Joséphine-Charlotte 26"
+  },
+  {
+   "id": "s00kxg",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3779&bien=PLACE%20L%C3%89OPOLD%202%20/%205%20NAMUR",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3779&bien=PLACE%20L%C3%89OPOLD%202%20/%205%20NAMUR"
+    }
+   ],
+   "price": 195000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 195000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 2 chambres – Namur",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 82,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Place Léopold 2/5"
+  },
+  {
+   "id": "1psy1bh",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3691&bien=RUE%20LUCIEN%20NAM%C3%8ACHE%209%20/%203%20NAMUR",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3691&bien=RUE%20LUCIEN%20NAM%C3%8ACHE%209%20/%203%20NAMUR"
+    }
+   ],
+   "price": 115000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 115000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Studio – Namur",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 28,
+   "bedrooms": 0,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Rue Lucien Namêche 9/3"
+  },
+  {
+   "id": "dnmps0",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3573&bien=RUE%20DE%20L%27AISE%202%20/%201%20JEMEPPE-SUR-SAMBRE",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3573&bien=RUE%20DE%20L%27AISE%202%20/%201%20JEMEPPE-SUR-SAMBRE"
+    }
+   ],
+   "price": 189000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 189000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
+   "commune": "Jemeppe-sur-Sambre",
+   "postcode": "5190",
+   "surface": 90,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Rue de l'Aise 2/1"
+  },
+  {
+   "id": "dxmbgz",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3572&bien=PLACE%20COMMUNALE%203%20/%203%20JEMEPPE-SUR-SAMBRE",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3572&bien=PLACE%20COMMUNALE%203%20/%203%20JEMEPPE-SUR-SAMBRE"
+    }
+   ],
+   "price": 209000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 209000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
+   "commune": "Jemeppe-sur-Sambre",
+   "postcode": "5190",
+   "surface": 97,
+   "bedrooms": 1,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Place Communale 3/3"
+  },
+  {
+   "id": "13tehb0",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=2952&bien=RUE%20KEFER%206%20JAMBES",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=2952&bien=RUE%20KEFER%206%20JAMBES"
+    }
+   ],
+   "price": 219000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T17:43:10Z",
+     "p": 219000
+    }
+   ],
+   "firstSeen": "2026-10-25T17:43:10Z",
+   "lastSeen": "2026-10-25T17:43:10Z",
+   "title": "Appartement 2 chambres – Jambes",
+   "commune": "Jambes",
+   "postcode": "5100",
+   "surface": 96,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov’Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Rue Kefer 6"
+  },
   {
    "id": "xibp3b",
    "url": "https://gilmont.be/bien/9996-duplex-2-chambres-de-95m%c2%b2/",
