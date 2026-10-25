@@ -1,11 +1,29 @@
 {
- "lastRun": "2026-10-25T10:54:18.639Z",
- "added": 0,
+ "lastRun": "2026-10-25T11:39:45.882Z",
+ "added": 8,
  "priceDrops": 0,
- "total": 0,
- "sources": {},
+ "total": 8,
+ "sources": {
+  "easyhome": 1,
+  "gilmont": 1,
+  "simmo": 4,
+  "stag": 2
+ },
  "notes": [
-  "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com"
+  "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
+  "Cap Sud Namur : site de l'agence introuvable",
+  "ERA (Namur) : site de l'agence introuvable",
+  "ED Immo : site de l'agence introuvable",
+  "AD-Immo : site de l'agence introuvable",
+  "Meusardennes : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
+  "Nam Property : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
+  "HV Immobilier : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
+  "Abras Immobilier : aucun bien en vente affiché",
+  "Pierre Marlair & Co : aucun bien listé sur la page d'accueil (rubrique « Acheter » à vérifier)",
+  "Trevi Namur : la page enregistrée est la présentation de l'agence, sans biens",
+  "Century 21 : site inaccessible (erreur client)",
+  "Innov’Expert : 19 appartements repérés mais non importés — leurs fiches ne diffèrent que par ?id=…, que le moteur (canonUrl dans engine.js) ignore, ce qui les fusionnerait en une seule annonce",
+  "Agences : 8 annonce(s) retenue(s) sur 15 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }

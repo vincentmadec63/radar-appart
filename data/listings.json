@@ -1,287 +1,309 @@
 {
- "updatedAt": "2026-10-25T10:54:18.639Z",
+ "updatedAt": "2026-10-25T11:39:45.882Z",
  "listings": [
   {
-   "example": true,
-   "sale": "vente",
-   "floor": 3,
-   "exterieur": true,
-   "parking": true,
-   "ascenseur": true,
-   "cave": true,
-   "charges": 140,
-   "agency": null,
-   "publishedAt": null,
-   "street": null,
-   "postcode": "5100",
-   "id": "ex1",
-   "source": "immoweb",
-   "url": "https://www.immoweb.be/fr",
+   "id": "1dkzcwy",
+   "url": "https://www.easyhome-immo.be/nos-biens/appartement-a-vendre-andenne-71m2/",
+   "source": "easyhome",
    "sources": [
     {
-     "name": "immoweb",
-     "url": "https://www.immoweb.be/fr"
+     "name": "easyhome",
+     "url": "https://www.easyhome-immo.be/nos-biens/appartement-a-vendre-andenne-71m2/"
     }
    ],
-   "title": "Appartement 2 chambres avec terrasse",
-   "commune": "Jambes",
-   "price": 249000,
+   "price": 99000,
    "priceHistory": [
     {
-     "d": "2026-10-25T06:12:00Z",
-     "p": 249000
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 99000
     }
    ],
-   "surface": 92,
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Appartement 2 chambres à Andenne",
+   "commune": "Andenne",
+   "postcode": "5300",
+   "surface": 71,
    "bedrooms": 2,
-   "peb": "C",
-   "photo": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=900&q=70",
-   "extrait": "Lumineux, vue dégagée sur la Meuse, terrasse de 12 m² plein sud, cave et emplacement de parking.",
-   "firstSeen": "2026-10-25T06:12:00Z",
-   "lastSeen": "2026-10-25T06:12:00Z"
-  },
-  {
-   "example": true,
-   "sale": "vente",
-   "floor": 2,
-   "exterieur": true,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
    "parking": null,
-   "ascenseur": false,
-   "cave": true,
-   "charges": null,
-   "agency": null,
-   "publishedAt": null,
-   "street": null,
-   "postcode": "5000",
-   "id": "ex2",
-   "source": "zimmo",
-   "url": "https://www.zimmo.be/fr/",
-   "sources": [
-    {
-     "name": "zimmo",
-     "url": "https://www.zimmo.be/fr/"
-    },
-    {
-     "name": "immoweb",
-     "url": "https://www.immoweb.be/fr"
-    }
-   ],
-   "title": "Appartement rénové proche de la Sambre",
-   "commune": "Salzinnes",
-   "price": 219000,
-   "priceHistory": [
-    {
-     "d": "2026-10-24T17:05:00Z",
-     "p": 219000
-    }
-   ],
-   "surface": 78,
-   "bedrooms": 2,
-   "peb": "D",
-   "photo": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=70",
-   "extrait": "Cuisine équipée neuve, balcon côté jardin, à 10 minutes à pied de la gare.",
-   "firstSeen": "2026-10-24T17:05:00Z",
-   "lastSeen": "2026-10-25T06:30:00Z"
-  },
-  {
-   "example": true,
-   "sale": "vente",
-   "floor": 4,
-   "exterieur": false,
-   "parking": null,
-   "ascenseur": true,
+   "ascenseur": null,
    "cave": null,
    "charges": null,
-   "agency": null,
+   "photo": null,
+   "agency": "Easyhome",
    "publishedAt": null,
-   "street": null,
-   "postcode": "5000",
-   "id": "ex3",
-   "source": "immovlan",
-   "url": "https://immovlan.be/fr",
+   "extrait": null,
+   "sale": "vente",
+   "street": "Rue Brun 30"
+  },
+  {
+   "id": "xibp3b",
+   "url": "https://gilmont.be/bien/9996-duplex-2-chambres-de-95m%c2%b2/",
+   "source": "gilmont",
    "sources": [
     {
-     "name": "immovlan",
-     "url": "https://immovlan.be/fr"
+     "name": "gilmont",
+     "url": "https://gilmont.be/bien/9996-duplex-2-chambres-de-95m%c2%b2/"
     }
    ],
-   "title": "Appartement 1 chambre en centre-ville",
+   "price": 195000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 195000
+    }
+   ],
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Duplex 2 chambres de 95 m²",
    "commune": "Namur",
-   "price": 189000,
-   "priceHistory": [
-    {
-     "d": "2026-10-24T06:40:00Z",
-     "p": 189000
-    }
-   ],
-   "surface": 58,
-   "bedrooms": 1,
-   "peb": "B",
-   "photo": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=70",
-   "extrait": "Rue piétonne, à deux pas de la place d’Armes. Pas de parking.",
-   "firstSeen": "2026-10-24T06:40:00Z",
-   "lastSeen": "2026-10-24T06:40:00Z"
-  },
-  {
-   "example": true,
-   "sale": "vente",
-   "floor": 1,
-   "exterieur": false,
-   "parking": true,
-   "ascenseur": false,
-   "cave": true,
-   "charges": null,
-   "agency": null,
-   "publishedAt": null,
-   "street": null,
-   "postcode": "5002",
-   "id": "ex5",
-   "source": "zimmo",
-   "url": "https://www.zimmo.be/fr/",
-   "sources": [
-    {
-     "name": "zimmo",
-     "url": "https://www.zimmo.be/fr/"
-    }
-   ],
-   "title": "Appartement 2 chambres avec parking",
-   "commune": "Saint-Servais",
-   "price": 199000,
-   "priceHistory": [
-    {
-     "d": "2026-10-22T06:50:00Z",
-     "p": 199000
-    }
-   ],
-   "surface": 85,
+   "postcode": "5000",
+   "surface": 95,
    "bedrooms": 2,
-   "peb": "E",
-   "photo": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=70",
-   "extrait": "Châssis simple vitrage à remplacer, chaudière de 2009. Charges 110 € par mois.",
-   "firstSeen": "2026-10-22T06:50:00Z",
-   "lastSeen": "2026-10-22T06:50:00Z"
-  },
-  {
-   "example": true,
-   "sale": "vente",
-   "floor": 2,
-   "exterieur": true,
-   "parking": true,
-   "ascenseur": true,
-   "cave": true,
-   "charges": null,
-   "agency": null,
-   "publishedAt": null,
-   "street": null,
-   "postcode": "5101",
-   "id": "ex6",
-   "source": "immovlan",
-   "url": "https://immovlan.be/fr",
-   "sources": [
-    {
-     "name": "immovlan",
-     "url": "https://immovlan.be/fr"
-    }
-   ],
-   "title": "Appartement neuf 2 chambres",
-   "commune": "Erpent",
-   "price": 279000,
-   "priceHistory": [
-    {
-     "d": "2026-10-20T16:45:00Z",
-     "p": 279000
-    }
-   ],
-   "surface": 96,
-   "bedrooms": 2,
-   "peb": "A",
-   "photo": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=70",
-   "extrait": "Résidence neuve, terrasse de 15 m², pompe à chaleur, livraison au printemps 2027.",
-   "firstSeen": "2026-10-20T16:45:00Z",
-   "lastSeen": "2026-10-20T16:45:00Z"
-  },
-  {
-   "example": true,
-   "sale": "vente",
-   "floor": 0,
-   "exterieur": true,
-   "parking": true,
+   "floor": null,
+   "peb": "C",
+   "exterieur": null,
+   "parking": null,
    "ascenseur": null,
    "cave": true,
    "charges": null,
-   "agency": null,
+   "photo": "https://gilmont.be/wp-content/uploads/2026/09/9996_150511.jpg",
+   "agency": "Gilmont Immobilier",
    "publishedAt": null,
-   "street": null,
-   "postcode": "5100",
-   "id": "ex4",
-   "source": "immoweb",
-   "url": "https://www.immoweb.be/fr",
-   "sources": [
-    {
-     "name": "immoweb",
-     "url": "https://www.immoweb.be/fr"
-    }
-   ],
-   "title": "Rez-de-jardin 3 chambres",
-   "commune": "Wépion",
-   "price": 299000,
-   "priceHistory": [
-    {
-     "d": "2026-10-12T07:20:00Z",
-     "p": 315000
-    },
-    {
-     "d": "2026-10-23T17:10:00Z",
-     "p": 299000
-    }
-   ],
-   "surface": 118,
-   "bedrooms": 3,
-   "peb": "C",
-   "photo": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=70",
-   "extrait": "Jardin privatif de 60 m², garage fermé, petite copropriété de 6 logements.",
-   "firstSeen": "2026-10-12T07:20:00Z",
-   "lastSeen": "2026-10-23T17:10:00Z"
+   "extrait": "Duplex 2 chambres de 95 m² près du centre de Namur, avec cave et grenier aménagé.",
+   "sale": "vente",
+   "street": null
   },
   {
-   "example": true,
-   "sale": "biddit",
-   "floor": 3,
-   "exterieur": false,
-   "parking": null,
-   "ascenseur": false,
-   "cave": null,
-   "charges": null,
-   "agency": null,
-   "publishedAt": null,
-   "street": null,
-   "postcode": "5004",
-   "id": "ex7",
-   "source": "biddit",
-   "url": "https://www.biddit.be/fr",
+   "id": "jcam8o",
+   "url": "https://www.s-immo.be/vente/1437-a-proximite-des-commodites.html",
+   "source": "simmo",
    "sources": [
     {
-     "name": "biddit",
-     "url": "https://www.biddit.be/fr"
+     "name": "simmo",
+     "url": "https://www.s-immo.be/vente/1437-a-proximite-des-commodites.html"
     }
    ],
-   "title": "Vente notariale en ligne : appartement 2 chambres",
-   "commune": "Bouge",
-   "price": 169000,
+   "price": 149000,
    "priceHistory": [
     {
-     "d": "2026-10-05T07:05:00Z",
-     "p": 169000
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 149000
     }
    ],
-   "surface": 74,
-   "bedrooms": 2,
-   "peb": "F",
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Appartement 1 chambre à Cognelée",
+   "commune": "Cognelée",
+   "postcode": null,
+   "surface": 58,
+   "bedrooms": 1,
+   "floor": 1,
+   "peb": "C",
+   "exterieur": null,
+   "parking": true,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://www.s-immo.be/media/1200/1437/1.JPG",
+   "agency": "S-Immo",
+   "publishedAt": null,
+   "extrait": "Appartement d'une chambre au premier étage d'une petite copropriété, avec deux places de parking extérieures.",
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "kxrm8e",
+   "url": "https://www.s-immo.be/vente/1480-appartement-centre-namur.html",
+   "source": "simmo",
+   "sources": [
+    {
+     "name": "simmo",
+     "url": "https://www.s-immo.be/vente/1480-appartement-centre-namur.html"
+    }
+   ],
+   "price": 110000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 110000
+    }
+   ],
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Appartement centre de Namur",
+   "commune": "Namur",
+   "postcode": null,
+   "surface": 36,
+   "bedrooms": null,
+   "floor": null,
+   "peb": "B",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
    "photo": null,
-   "extrait": "Mise à prix. Enchères en ligne du 3 au 11 novembre, visites sur rendez-vous.",
-   "firstSeen": "2026-10-05T07:05:00Z",
-   "relistedAt": "2026-10-23T07:00:00Z",
-   "lastSeen": "2026-10-23T07:00:00Z"
+   "agency": "S-Immo",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "1bw9o5g",
+   "url": "https://www.s-immo.be/vente/1465-appartement-2-chambres.html",
+   "source": "simmo",
+   "sources": [
+    {
+     "name": "simmo",
+     "url": "https://www.s-immo.be/vente/1465-appartement-2-chambres.html"
+    }
+   ],
+   "price": 180000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 180000
+    }
+   ],
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Appartement 2 chambres",
+   "commune": "Namur",
+   "postcode": null,
+   "surface": 55,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": "B",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "S-Immo",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "1y8y2et",
+   "url": "https://www.s-immo.be/vente/1468-petite-copropriete.html",
+   "source": "simmo",
+   "sources": [
+    {
+     "name": "simmo",
+     "url": "https://www.s-immo.be/vente/1468-petite-copropriete.html"
+    }
+   ],
+   "price": 185000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 185000
+    }
+   ],
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Appartement dans petite copropriété",
+   "commune": "Saint-Servais",
+   "postcode": null,
+   "surface": 55,
+   "bedrooms": null,
+   "floor": null,
+   "peb": "B",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "S-Immo",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "1hrsrrz",
+   "url": "https://www.stag.immo/biens-a-vendre/quartier-citadelle-studio-lumineux-avec-terrasse/namur/7903221",
+   "source": "stag",
+   "sources": [
+    {
+     "name": "stag",
+     "url": "https://www.stag.immo/biens-a-vendre/quartier-citadelle-studio-lumineux-avec-terrasse/namur/7903221"
+    }
+   ],
+   "price": 129000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 129000
+    }
+   ],
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Quartier Citadelle : studio lumineux avec terrasse",
+   "commune": "Namur",
+   "postcode": null,
+   "surface": 31,
+   "bedrooms": 0,
+   "floor": null,
+   "peb": "G",
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Stag",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "1irtc7f",
+   "url": "https://www.stag.immo/biens-a-vendre/appartement-traversant-1ch-avec-terrasse-possibilite-2-chs/namur/7807346",
+   "source": "stag",
+   "sources": [
+    {
+     "name": "stag",
+     "url": "https://www.stag.immo/biens-a-vendre/appartement-traversant-1ch-avec-terrasse-possibilite-2-chs/namur/7807346"
+    }
+   ],
+   "price": 149000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T11:39:30.894Z",
+     "p": 149000
+    }
+   ],
+   "firstSeen": "2026-10-25T11:39:30.894Z",
+   "lastSeen": "2026-10-25T11:39:30.894Z",
+   "title": "Appartement traversant 1 ch. avec terrasse (possibilité 2 ch.)",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 70,
+   "bedrooms": 1,
+   "floor": 3,
+   "peb": "G",
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": false,
+   "cave": true,
+   "charges": 93,
+   "photo": "https://r2.storagewhise.eu/storage6951/Pictures/7807346/1600/3859c0defb45495caef0022c259243f4.jpg",
+   "agency": "Stag",
+   "publishedAt": null,
+   "extrait": "Appartement traversant de 70 m² avec terrasse arrière, au 3e étage, pouvant être aménagé en deux chambres.",
+   "sale": "vente",
+   "street": "Rue Rogier 41"
   }
  ]
 }
