@@ -298,6 +298,31 @@ ul.check-list { margin: 4px 0; padding-left: 18px; font-size: .9rem; display: fl
 .hint-swipe { text-align: center; font-size: .8rem; color: var(--ink-2); margin: 8px 0 0; }
 @media (max-height: 600px) { .dcard .reasons { display: none; } .round { width: 54px; height: 54px; } .round.keep { width: 62px; height: 62px; } .hint-swipe { display: none; } }
 
+/* Comparaison */
+.sel-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.sel-head p { margin: 0; font-size: .88rem; color: var(--ink-2); }
+.mini.pick { appearance: none; border: 2px solid transparent; width: 100%; text-align: left; cursor: pointer; color: var(--ink); font: inherit; }
+.mini.pick[aria-pressed="true"] { border-color: var(--accent); }
+.mini.pick .ph { pointer-events: none; }
+.tick { position: absolute; z-index: 3; top: 6px; left: 6px; width: 26px; height: 26px; border-radius: 50%; border: 2px solid #fff; background: rgba(15,21,24,.45); display: grid; place-items: center; color: #fff; font: 700 .9rem/1 var(--f-body); }
+.mini.pick[aria-pressed="true"] .tick { background: var(--accent); border-color: var(--accent); }
+.mini .phw { position: relative; }
+.cmpbar { position: fixed; z-index: 29; left: 0; right: 0; bottom: calc(var(--tabbar) + var(--sab)); padding: 10px max(16px, env(safe-area-inset-right, 0px)) 10px max(16px, env(safe-area-inset-left, 0px)); background: var(--bar); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-top: 1px solid var(--line); }
+.cmpbar .btn { width: 100%; max-width: 520px; margin: 0 auto; display: flex; }
+@media (min-width: 900px) { .cmpbar { bottom: 0; } }
+.cmp-scroll { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))); padding: 0 max(16px, env(safe-area-inset-left, 0px)) 8px; }
+.cmp { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 340px; table-layout: fixed; font-size: .88rem; font-variant-numeric: tabular-nums; }
+.cmp th, .cmp td { padding: 8px 5px; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
+.cmp td { white-space: nowrap; font-size: .84rem; }
+.cmp td.wrap { white-space: normal; overflow-wrap: anywhere; }
+.cmp th { width: 88px; font: 600 .78rem var(--f-body); color: var(--ink-2); position: sticky; left: 0; background: var(--bg); z-index: 1; }
+.cmp thead td { border-bottom: 0; padding-top: 0; }
+.cmp thead a { display: block; border-radius: 10px; overflow: hidden; aspect-ratio: 4 / 3; background: var(--surface-2); text-decoration: none; color: var(--ink-2); font: 700 .78rem var(--f-display); }
+.cmp thead img { width: 100%; height: 100%; object-fit: cover; }
+.cmp thead span { display: grid; place-items: center; height: 100%; padding: 4px; text-align: center; }
+.cmp .best { background: var(--good-soft); color: var(--good); font-weight: 700; border-radius: 6px; }
+.cmp .big { font: 700 .95rem var(--f-display); }
+
 /* Sélection */
 .pipe { display: flex; flex-direction: column; gap: 18px; }
 .pipe h2 { margin: 0 0 8px; font: 700 1.05rem var(--f-display); display: flex; gap: 8px; align-items: baseline; }
@@ -394,6 +419,8 @@ footer { padding: 4px 0 8px; font-size: .78rem; color: var(--ink-2); }
 </nav>
 
 <div id="deck" class="deck" hidden role="dialog" aria-modal="true" aria-label="Trier les annonces"></div>
+<div id="cmp" class="deck" hidden role="dialog" aria-modal="true" aria-label="Comparer les annonces"></div>
+<div id="cmpbar" class="cmpbar" hidden></div>
 <div id="scrim" class="scrim" hidden></div>
 <div id="sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
 <div id="toast" class="toast" hidden role="status"></div>
@@ -421,7 +448,7 @@ var state = {
   criteria: LS.get('criteria', null),
   status: LS.get('status', {}),
   filter: LS.get('filter', 'all'), sort: LS.get('sort', 'date'), showOut: false,
-  why: null, flash: null, deck: null, loading: false, alertChecked: false
+  why: null, flash: null, deck: null, loading: false, alertChecked: false, pick: null
 };
 
 /* Dernière visite : sert à marquer les nouveautés. */
@@ -663,17 +690,36 @@ function mini(r) {
     '<a class="btn sq" href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l’annonce">' + ICON.ext + '</a></div></div></div>';
 }
 
+function miniPick(r) {
+  var l = r.l, on = state.pick.indexOf(l.id) >= 0;
+  var ph = '<span class="ph' + (l.photo ? '' : ' noimg') + '"><span class="ph-fb"><b>' + esc(l.commune || '') + '</b></span>' + (l.photo ? '<img src="' + esc(l.photo) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'noimg\')">' : '') + '</span>';
+  return '<button class="mini pick" data-act="cmpPick" data-id="' + esc(l.id) + '" aria-pressed="' + on + '"><span class="phw">' + ph + '<span class="tick">' + (on ? '✓' : '') + '</span></span>' +
+    '<span class="meta"><b>' + eur(l.price) + '</b><span>' + esc(l.commune) + ' · ' + esc([l.surface ? l.surface + ' m²' : '', l.bedrooms != null ? l.bedrooms + ' ch.' : ''].filter(Boolean).join(' · ')) + '</span>' +
+    '<span>Score ' + r.s.score + '</span></span></button>';
+}
+
 function renderSel() {
   var rows = state.rows.filter(function (r) { return r.st && r.st.s; });
   var n = rows.filter(function (r) { return r.st.s !== 'out'; }).length;
   document.querySelectorAll('[data-count]').forEach(function (el) { el.textContent = n || ''; if (n) el.removeAttribute('data-zero'); else el.setAttribute('data-zero', ''); });
-  if (state.view !== 'sel') return;
-  var html = '';
+  var bar = document.getElementById('cmpbar');
+  if (state.view !== 'sel') { bar.hidden = true; return; }
+  var picking = !!state.pick;
+  var html = n >= 2 ? '<div class="sel-head"><p>' + (picking ? 'Choisis 2 ou 3 annonces à comparer.' : n + ' annonces gardées') + '</p>' +
+    '<button class="btn" data-act="' + (picking ? 'cmpCancel' : 'cmpStart') + '">' + (picking ? 'Annuler' : 'Comparer') + '</button></div>' : '';
   STATES.forEach(function (st) {
     var g = rows.filter(function (r) { return r.st.s === st[0]; });
     if (!g.length) return;
-    html += '<div><h2>' + st[1] + ' <span>' + g.length + '</span></h2>' + g.map(mini).join('') + '</div>';
+    html += '<div><h2>' + st[1] + ' <span>' + g.length + '</span></h2>' + g.map(picking ? miniPick : mini).join('') + '</div>';
   });
+  if (picking) {
+    var k = state.pick.length;
+    bar.hidden = false;
+    bar.innerHTML = '<button class="btn primary" data-act="cmpOpen"' + (k < 2 ? ' disabled style="opacity:.5"' : '') + '>' + (k < 2 ? 'Choisis encore ' + (2 - k) + ' annonce' + (k === 1 ? '' : 's') : 'Comparer ' + k + ' annonces') + '</button>';
+    document.getElementById('pipe').innerHTML = html;
+    return;
+  }
+  bar.hidden = true;
   var outs = rows.filter(function (r) { return r.st.s === 'out'; });
   if (outs.length) {
     var why = {};
@@ -681,6 +727,56 @@ function renderSel() {
     html += '<details><summary class="sub" style="cursor:pointer;min-height:44px;display:flex;align-items:center">Écartées (' + outs.length + ') · ' + Object.keys(why).map(function (w) { return esc(w) + ' ×' + why[w]; }).join(', ') + '</summary>' + outs.map(mini).join('') + '</details>';
   }
   document.getElementById('pipe').innerHTML = html || '<div class="empty">Garde une annonce avec le cœur : elle arrive ici, et tu suis ensuite contact, visite et offre.</div>';
+}
+
+function openCompare() {
+  var rs = state.pick.map(rowById).filter(Boolean);
+  if (rs.length < 2) return;
+  var c = crit(), cols = rs.length;
+  var cost = function (l) { var x = E.costs(l.price, c.hpu !== false); return x ? x.total : null; };
+  var yn = function (v) { return v === true ? 'Oui' : v === false ? 'Non' : '—'; };
+  var rowsDef = [
+    ['Prix', function (r) { return r.l.price; }, 'min', function (v) { return v ? eur(v) : '—'; }, true],
+    ['Prix au m²', function (r) { return r.ppm; }, 'min', function (v) { return v ? Math.round(v).toLocaleString('fr-BE') + ' €' : '—'; }],
+    ['Coût total estimé', function (r) { return cost(r.l); }, 'min', function (v) { return v ? '≈ ' + eur(v) : '—'; }],
+    ['Score', function (r) { return r.s.score; }, 'max', function (v) { return v + ' / 100'; }, true],
+    ['Surface', function (r) { return r.l.surface; }, 'max', function (v) { return v ? v + ' m²' : '—'; }],
+    ['Chambres', function (r) { return r.l.bedrooms; }, 'max', function (v) { return v == null ? '—' : v === 0 ? 'Studio' : v; }],
+    ['Étage', function (r) { return r.l.floor; }, null, function (v) { return v == null ? '—' : v === 0 ? 'Rez' : v + (v === 1 ? 'er' : 'e'); }],
+    ['PEB', function (r) { var k = E.pebRank(r.l.peb); return k == null ? null : -k; }, 'max', function (v, r) { return r.l.peb ? pebTag(r.l.peb) : '—'; }],
+    ['Extérieur', function (r) { return r.l.exterieur; }, null, yn],
+    ['Parking', function (r) { return r.l.parking; }, null, yn],
+    ['Ascenseur', function (r) { return r.l.ascenseur; }, null, yn],
+    ['Cave', function (r) { return r.l.cave; }, null, yn],
+    ['Charges', function (r) { return r.l.charges; }, 'min', function (v) { return v ? v + ' €/mois' : '—'; }],
+    ['Commune', function (r) { return r.l.commune; }, null, function (v) { return esc(v || '—'); }, false, true],
+    ['Repérée le', function (r) { return keyDate(r.l); }, null, function (v) { return fmtDate(v); }],
+    ['Étape', function (r) { return (STATES.find(function (x) { return x[0] === r.st.s; }) || [0, '—'])[1]; }, null, esc, false, true],
+    ['Notes', function (r) { return r.st.note; }, null, function (v) { return v ? esc(v) : '—'; }, false, true]
+  ];
+  var head = '<thead><tr><th></th>' + rs.map(function (r) {
+    var l = r.l;
+    return '<td><a href="' + esc(l.url) + '" target="_blank" rel="noopener noreferrer">' + (l.photo ? '<img src="' + esc(l.photo) + '" alt="" referrerpolicy="no-referrer" onerror="this.replaceWith(Object.assign(document.createElement(\'span\'),{textContent:\'' + esc(l.commune || '') + '\'}))">' : '<span>' + esc(l.commune || '') + '</span>') + '</a></td>';
+  }).join('') + '</tr></thead>';
+  var body = '<tbody>' + rowsDef.map(function (d) {
+    var vals = rs.map(d[1]), nums = vals.filter(function (v) { return typeof v === 'number'; });
+    var best = d[2] && nums.length >= 2 ? (d[2] === 'min' ? Math.min.apply(null, nums) : Math.max.apply(null, nums)) : null;
+    var allSame = nums.length && nums.every(function (v) { return v === nums[0]; });
+    return '<tr><th scope="row">' + d[0] + '</th>' + rs.map(function (r, i) {
+      var v = vals[i], isBest = best != null && !allSame && v === best;
+      var cls = [isBest ? 'best' : '', d[4] ? 'big' : '', d[5] ? 'wrap' : ''].join(' ').trim();
+      return '<td' + (cls ? ' class="' + cls + '"' : '') + '>' + d[3](v, r) + '</td>';
+    }).join('') + '</tr>';
+  }).join('') + '</tbody>';
+  var el = document.getElementById('cmp');
+  el.innerHTML = '<div class="deck-head"><div><b>Comparer</b> <span>' + cols + ' annonces</span></div><button class="icon-btn" data-act="cmpClose" aria-label="Fermer">' + ICON.close + '</button></div>' +
+    '<p class="hint" style="margin:0 0 10px">En vert, la meilleure valeur de chaque ligne. Touche une photo pour ouvrir l’annonce.</p>' +
+    '<div class="cmp-scroll"><table class="cmp"><colgroup><col style="width:88px">' + rs.map(function () { return '<col>'; }).join('') + '</colgroup>' + head + body + '</table></div>';
+  el.hidden = false; document.documentElement.classList.add('locked');
+}
+function closeCompare() {
+  document.getElementById('cmp').hidden = true;
+  if (!state.deck) document.documentElement.classList.remove('locked');
 }
 
 function seg(name, options, value) {
@@ -718,6 +814,7 @@ function renderSettings() {
 
 function renderSync() {
   var m = state.meta || {}, el = document.getElementById('sync');
+  if (navigator.onLine === false) { el.className = 'sync stale'; el.innerHTML = '<i></i><span>Hors connexion · dernières annonces gardées</span>'; return; }
   if (!m.lastRun) { el.className = 'sync stale'; el.innerHTML = '<i></i><span>Première relève à venir</span>'; return; }
   var stale = Date.now() - Date.parse(m.lastRun) > 15 * 36e5;
   var d = new Date(m.lastRun), today = new Date().toDateString() === d.toDateString();
@@ -852,7 +949,7 @@ function share(data, copyText) {
 document.addEventListener('click', function (e) {
   var t = e.target.closest('[data-act],[data-f],[data-v],[data-seg],[data-commune]');
   if (!t) return;
-  if (t.dataset.v) { setView(t.dataset.v); render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.v) { if (t.dataset.v !== 'sel') state.pick = null; setView(t.dataset.v); render(); window.scrollTo(0, 0); return; }
   if (t.dataset.f) { state.filter = t.dataset.f; LS.set('filter', state.filter); render(); return; }
   if (t.dataset.seg) {
     var name = t.dataset.seg, val = t.dataset.val;
@@ -907,6 +1004,15 @@ document.addEventListener('click', function (e) {
   }
   else if (a === 'a2hs') { LS.set('a2hs', true); render(); }
   else if (a === 'deck') openDeck();
+  else if (a === 'cmpStart') { state.pick = []; render(); }
+  else if (a === 'cmpCancel') { state.pick = null; render(); }
+  else if (a === 'cmpPick') {
+    var pi = state.pick.indexOf(id);
+    if (pi >= 0) state.pick.splice(pi, 1); else if (state.pick.length < 3) state.pick.push(id); else toast('3 annonces au maximum');
+    keepScroll(render);
+  }
+  else if (a === 'cmpOpen') openCompare();
+  else if (a === 'cmpClose') closeCompare();
   else if (a === 'alertClose') closeSheet();
   else if (a === 'alertDeck') { closeSheet(); openDeck(); }
   else if (a === 'alertGo') {
@@ -928,6 +1034,7 @@ document.addEventListener('click', function (e) {
 
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape' && !document.getElementById('sheet').hidden) return closeSheet();
+  if (e.key === 'Escape' && !document.getElementById('cmp').hidden) return closeCompare();
   if (!state.deck) return;
   if (e.key === 'ArrowRight') flyOut(document.getElementById('dcard'), 1, 'keep');
   else if (e.key === 'ArrowLeft') flyOut(document.getElementById('dcard'), -1, 'out');
@@ -1014,7 +1121,11 @@ function load(manual) {
     state.loading = false; btn.classList.remove('spin');
     if (!res[0]) { if (manual) toast('Pas de connexion, réessaie plus tard'); return; }
     var before = state.listings.length;
-    state.listings = res[0].listings || [];
+    state.listings = (res[0].listings || []).map(function (l) {
+      l.url = E.safeUrl(l.url) || '#'; l.photo = E.safeUrl(l.photo, true);
+      (l.sources || []).forEach(function (x) { x.url = E.safeUrl(x.url) || '#'; });
+      return l;
+    });
     state.meta = res[1] || {};
     var typing = document.activeElement && /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName);
     if (!typing) keepScroll(render); else renderSync();
@@ -1031,6 +1142,11 @@ document.getElementById('scrim').addEventListener('click', closeSheet);
 render();
 load();
 document.addEventListener('visibilitychange', function () { if (!document.hidden) load(); });
+window.addEventListener('online', function () { load(); });
+window.addEventListener('offline', renderSync);
+if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
+  window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+}
 })();
 </script>
 </body>

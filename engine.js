@@ -163,6 +163,38 @@
     return h.toString(36);
   }
 
+  /* Seuls les liens web sont gardés : un lien d'un autre type (javascript:, data:…) devient vide. */
+  function safeUrl(u, httpsOnly) {
+    var s = String(u || '').trim();
+    return (httpsOnly ? /^https:\/\//i : /^https?:\/\//i).test(s) ? s : null;
+  }
+
+  /* « 5100 Jambes », « Jambes (Namur) », « JAMBES » → commune « Jambes », code postal 5100. */
+  function cleanPlace(inc) {
+    var c = String(inc.commune || '').trim(), pc = inc.postcode ? String(inc.postcode).trim() : null;
+    var m = c.match(/^(\d{4})\s+(.+)$/) || c.match(/^(.+?)\s*\(?(\d{4})\)?$/);
+    if (m) { var a = /^\d{4}$/.test(m[1]) ? m[1] : m[2], b = /^\d{4}$/.test(m[1]) ? m[2] : m[1]; pc = pc || a; c = b; }
+    c = c.replace(/\s*\([^)]*\)\s*$/, '').trim();
+    if (c && c === c.toUpperCase()) c = c.toLowerCase().replace(/(^|[\s-])([a-zà-ÿ])/g, function (x, p, l) { return p + l.toUpperCase(); });
+    inc.commune = c || null;
+    inc.postcode = pc && /^\d{4}$/.test(pc) ? pc : null;
+    return inc;
+  }
+
+  function sanitize(inc) {
+    if (!inc) return null;
+    inc.url = safeUrl(inc.url, false);
+    if (!inc.url) return null;
+    inc.photo = safeUrl(inc.photo, true);
+    ['price', 'surface', 'bedrooms', 'floor', 'charges'].forEach(function (k) {
+      if (inc[k] == null || inc[k] === '') { inc[k] = null; return; }
+      var n = typeof inc[k] === 'number' ? inc[k] : parseFloat(String(inc[k]).replace(/[^\d.,-]/g, '').replace(/\.(?=\d{3})/g, '').replace(',', '.'));
+      inc[k] = isFinite(n) ? Math.round(n) : null;
+    });
+    if (inc.peb) { var p = String(inc.peb).toUpperCase().replace(/\s/g, ''); inc.peb = PEB_ORDER.indexOf(p) >= 0 ? p : null; }
+    return cleanPlace(inc);
+  }
+
   var FIELDS = ['title', 'commune', 'postcode', 'surface', 'bedrooms', 'floor', 'peb', 'exterieur', 'parking', 'ascenseur', 'cave', 'charges', 'photo', 'agency', 'publishedAt', 'extrait', 'sale', 'street'];
 
   function samePlace(a, b) {
@@ -179,8 +211,9 @@
     var list = incoming.length ? real : existing.slice();
     var out = { added: [], priceDrops: [], relisted: [], updated: [], otherSource: [] };
 
-    incoming.forEach(function (inc) {
-      if (!inc || !inc.url) return;
+    incoming.forEach(function (raw) {
+      var inc = sanitize(Object.assign({}, raw));
+      if (!inc) return;
       var cu = canonUrl(inc.url), seen = inc.receivedAt || nowISO;
       var byUrl = list.find(function (l) { return (l.sources || []).some(function (s) { return canonUrl(s.url) === cu; }); });
       var target = byUrl || list.find(function (l) { return samePlace(inc, l); });
@@ -217,7 +250,8 @@
   }
 
   var api = { score: score, costs: costs, honoraires: honoraires, merge: merge, communeStats: communeStats,
-    criteriaReady: criteriaReady, norm: norm, pebRank: pebRank, PEB_ORDER: PEB_ORDER, EQUIP: EQUIP, canonUrl: canonUrl, hash: hash, fmtEur: fmtEur };
+    criteriaReady: criteriaReady, norm: norm, pebRank: pebRank, PEB_ORDER: PEB_ORDER, EQUIP: EQUIP, canonUrl: canonUrl, hash: hash, fmtEur: fmtEur,
+    safeUrl: safeUrl, sanitize: sanitize };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   root.RadarEngine = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);
