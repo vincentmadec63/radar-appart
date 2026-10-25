@@ -1,0 +1,21 @@
+[
+ {"slug": "easyhome", "nom": "Easyhome", "liste": "https://www.easyhome-immo.be/nos-agences/easyhome-namur/", "base": "https://www.easyhome-immo.be"},
+ {"slug": "meusardennes", "nom": "Meusardennes", "liste": "https://www.meusardennes.be/fr/2/chercher-bien/a-vendre", "base": "https://www.meusardennes.be", "plateforme": "infinitescroll"},
+ {"slug": "gilmont", "nom": "Gilmont Immobilier", "liste": "https://gilmont.be/biens/a-vendre", "base": "https://gilmont.be"},
+ {"slug": "iseo", "nom": "ISEO Immobilier", "liste": "https://www.iseo-immobilier.be/biens", "base": "https://www.iseo-immobilier.be"},
+ {"slug": "namproperty", "nom": "Nam Property", "liste": "https://www.namproperty.be/fr/2/chercher-bien/a-vendre", "base": "https://www.namproperty.be", "plateforme": "infinitescroll"},
+ {"slug": "simmo", "nom": "S-Immo", "liste": "https://www.s-immo.be/vente.html", "base": "https://www.s-immo.be", "pages": "?page=N"},
+ {"slug": "hvimmo", "nom": "HV Immobilier", "liste": "https://www.hvimmobilier.be/fr/2/chercher-bien/a-vendre", "base": "https://www.hvimmobilier.be", "plateforme": "infinitescroll"},
+ {"slug": "abras", "nom": "Abras Immobilier", "liste": "https://abras-immo.be/achat,appartements", "base": "https://abras-immo.be"},
+ {"slug": "stag", "nom": "Stag", "liste": "https://www.stag.immo/biens-a-vendre", "base": "https://www.stag.immo"},
+ {"slug": "capsud", "nom": "Cap Sud Namur", "liste": null, "base": null},
+ {"slug": "weinvest", "nom": "We Invest Namur", "liste": "https://weinvest.be/fr-BE/properties/for-sale", "base": "https://weinvest.be"},
+ {"slug": "era", "nom": "ERA (Namur)", "liste": null, "base": null},
+ {"slug": "edimmo", "nom": "ED Immo", "liste": null, "base": null},
+ {"slug": "marlair", "nom": "Pierre Marlair & Co", "liste": "https://www.pierremarlair.be/", "base": "https://www.pierremarlair.be"},
+ {"slug": "latourpetit", "nom": "Latour & Petit", "liste": "https://latouretpetit.be/fr", "base": "https://latouretpetit.be"},
+ {"slug": "adimmo", "nom": "AD-Immo", "liste": null, "base": null},
+ {"slug": "trevi", "nom": "Trevi Namur", "liste": "https://www.trevi.be/en/find-an-agency/namur/agence-trevi-imact-presentation-de-lagence", "base": "https://www.trevi.be"},
+ {"slug": "innovexpert", "nom": "Innov’Expert", "liste": "https://www.innov-expert.be/biens-immobiliers/a-vendre/", "base": "https://www.innov-expert.be"},
+ {"slug": "century21", "nom": "Century 21", "liste": "https://www.century21.be/fr/a-vendre/appartement/namur-5000", "base": "https://www.century21.be"}
+]

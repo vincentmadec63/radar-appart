@@ -434,7 +434,7 @@ var LS = {
   get: function (k, d) { try { var v = localStorage.getItem('radar.' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
   set: function (k, v) { try { localStorage.setItem('radar.' + k, JSON.stringify(v)); } catch (e) {} }
 };
-var SOURCES = { immoweb: 'Immoweb', zimmo: 'Zimmo', immovlan: 'Immovlan', biddit: 'Biddit', notaire: 'Notaire.be', logicimmo: 'Logic-Immo', autre: 'Autre site' };
+var SOURCES = { immoweb: 'Immoweb', zimmo: 'Zimmo', immovlan: 'Immovlan', biddit: 'Biddit', notaire: 'Notaire.be', logicimmo: 'Logic-Immo', easyhome: 'Easyhome', meusardennes: 'Meusardennes', gilmont: 'Gilmont Immobilier', iseo: 'ISEO Immobilier', namproperty: 'Nam Property', simmo: 'S-Immo', hvimmo: 'HV Immobilier', abras: 'Abras Immobilier', stag: 'Stag', capsud: 'Cap Sud Namur', weinvest: 'We Invest Namur', era: 'ERA (Namur)', edimmo: 'ED Immo', marlair: 'Pierre Marlair & Co', latourpetit: 'Latour & Petit', adimmo: 'AD-Immo', trevi: 'Trevi Namur', innovexpert: 'Innov’Expert', century21: 'Century 21', autre: 'Autre site' };
 var COMMUNES = ['Namur', 'Jambes', 'Salzinnes', 'Saint-Servais', 'Bouge', 'Erpent', 'Wépion', 'Belgrade', 'Flawinne', 'Malonne', 'Champion', 'Vedrin', 'Saint-Marc', 'Suarlée', 'Temploux', 'Naninne', 'Dave', 'Beez', 'Profondeville', 'Floreffe', 'Gembloux', 'Assesse', 'Andenne', 'La Bruyère', 'Fernelmont', 'Éghezée'];
 var STATES = [['fav', 'Favori'], ['contact', 'À contacter'], ['visite', 'Visite prévue'], ['visited', 'Visité'], ['offre', 'Offre faite']];
 var OUT_WHY = ['Trop cher', 'Quartier', 'Trop petit', 'Travaux', 'Pas lumineux', 'Autre'];
