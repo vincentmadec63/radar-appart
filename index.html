@@ -274,6 +274,27 @@ ul.check-list { margin: 4px 0; padding-left: 18px; font-size: .9rem; display: fl
 .deck-done { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; padding: 20px; }
 .deck-done b { font: 700 1.6rem var(--f-display); text-wrap: balance; }
 .deck-done p { margin: 0; color: var(--ink-2); max-width: 30ch; }
+
+/* Alertes à l'ouverture */
+.scrim { position: fixed; inset: 0; z-index: 55; background: rgba(10, 16, 19, .45); }
+.sheet { position: fixed; z-index: 56; left: 0; right: 0; bottom: 0; max-height: 86vh; overflow: auto; overscroll-behavior: contain; background: var(--bg); border-radius: 22px 22px 0 0;
+  padding: 8px max(16px, env(safe-area-inset-right, 0px)) calc(var(--sab) + 16px) max(16px, env(safe-area-inset-left, 0px)); display: flex; flex-direction: column; gap: 12px; box-shadow: 0 -8px 30px rgba(0,0,0,.18); }
+.sheet::before { content: ""; width: 38px; height: 5px; border-radius: 3px; background: var(--line); align-self: center; margin-bottom: 4px; flex: none; }
+.sheet h2 { margin: 0; font: 700 1.3rem/1.15 var(--f-display); text-wrap: balance; }
+.sheet .lead { margin: -6px 0 0; color: var(--ink-2); font-size: .92rem; }
+.sheet h3 { margin: 6px 0 0; font: 700 .76rem var(--f-body); text-transform: uppercase; letter-spacing: .07em; color: var(--ink-2); }
+.sheet h3.heart { color: var(--heart); }
+.alert-row { appearance: none; border: 0; text-align: left; width: 100%; display: grid; grid-template-columns: 68px minmax(0, 1fr) auto; gap: 12px; align-items: center; background: var(--surface); border-radius: 14px; padding: 8px; box-shadow: var(--shadow); cursor: pointer; color: var(--ink); }
+.alert-row:active { transform: scale(.98); }
+.alert-row .th { width: 68px; height: 68px; border-radius: 10px; overflow: hidden; background: var(--surface-2); display: grid; place-items: center; font: 700 .8rem var(--f-display); color: var(--ink-2); text-align: center; padding: 4px; }
+.alert-row .th img { width: 100%; height: 100%; object-fit: cover; }
+.alert-row .tx { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.alert-row .tx b { font: 700 1.05rem var(--f-display); font-variant-numeric: tabular-nums; }
+.alert-row .tx span { font-size: .84rem; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.alert-row .sc { font: 700 .95rem var(--f-display); color: #fff; background: var(--heart); border-radius: 999px; padding: 6px 10px; font-variant-numeric: tabular-nums; }
+.alert-row .sc.drop { background: var(--good); }
+.sheet-actions { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
+@media (min-width: 720px) { .sheet { left: 50%; right: auto; bottom: 50%; transform: translate(-50%, 50%); width: 460px; border-radius: 22px; padding-bottom: 20px; } .sheet::before { display: none; } }
 .hint-swipe { text-align: center; font-size: .8rem; color: var(--ink-2); margin: 8px 0 0; }
 @media (max-height: 600px) { .dcard .reasons { display: none; } .round { width: 54px; height: 54px; } .round.keep { width: 62px; height: 62px; } .hint-swipe { display: none; } }
 
@@ -373,6 +394,8 @@ footer { padding: 4px 0 8px; font-size: .78rem; color: var(--ink-2); }
 </nav>
 
 <div id="deck" class="deck" hidden role="dialog" aria-modal="true" aria-label="Trier les annonces"></div>
+<div id="scrim" class="scrim" hidden></div>
+<div id="sheet" class="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
 <div id="toast" class="toast" hidden role="status"></div>
 
 <script src="engine.js"></script>
@@ -398,7 +421,7 @@ var state = {
   criteria: LS.get('criteria', null),
   status: LS.get('status', {}),
   filter: LS.get('filter', 'all'), sort: LS.get('sort', 'date'), showOut: false,
-  why: null, flash: null, deck: null, loading: false
+  why: null, flash: null, deck: null, loading: false, alertChecked: false
 };
 
 /* Dernière visite : sert à marquer les nouveautés. */
@@ -884,6 +907,12 @@ document.addEventListener('click', function (e) {
   }
   else if (a === 'a2hs') { LS.set('a2hs', true); render(); }
   else if (a === 'deck') openDeck();
+  else if (a === 'alertClose') closeSheet();
+  else if (a === 'alertDeck') { closeSheet(); openDeck(); }
+  else if (a === 'alertGo') {
+    closeSheet(); setView('feed'); state.filter = 'all'; state.flash = id; render();
+    var ge = document.getElementById('l-' + id); if (ge) ge.scrollIntoView({ block: 'start' });
+  }
   else if (a === 'deckClose') closeDeck();
   else if (a === 'deckToSel') { closeDeck(); setView('sel'); render(); window.scrollTo(0, 0); }
   else if (a === 'deckKeep') flyOut(document.getElementById('dcard'), 1, 'keep');
@@ -898,6 +927,7 @@ document.addEventListener('click', function (e) {
 });
 
 document.addEventListener('keydown', function (e) {
+  if (e.key === 'Escape' && !document.getElementById('sheet').hidden) return closeSheet();
   if (!state.deck) return;
   if (e.key === 'ArrowRight') flyOut(document.getElementById('dcard'), 1, 'keep');
   else if (e.key === 'ArrowLeft') flyOut(document.getElementById('dcard'), -1, 'out');
@@ -924,6 +954,54 @@ document.addEventListener('input', function (e) {
   if (t.dataset.act === 'note') { clearTimeout(t._tm); t._tm = setTimeout(function () { saveStatus(t.dataset.id, { note: t.value.trim() }); }, 500); }
 });
 
+/* Alertes à l'ouverture : coups de cœur jamais montrés, baisses de prix sur la sélection. */
+function pendingAlerts() {
+  var seen = LS.get('alerted', {});
+  var cdc = state.rows.filter(function (r) { return r.s.coupDeCoeur && !(r.st && r.st.s) && !seen['c:' + r.l.id]; })
+    .sort(function (a, b) { return b.s.score - a.s.score; });
+  var drops = state.rows.filter(function (r) {
+    if (!r.st || !r.st.s || r.st.s === 'out') return false;
+    var h = r.l.priceHistory || []; if (h.length < 2) return false;
+    var last = h[h.length - 1], prev = h[h.length - 2];
+    return last.p < prev.p && !seen['d:' + r.l.id + ':' + last.p];
+  });
+  return { cdc: cdc, drops: drops, seen: seen };
+}
+function thumb(l) {
+  return '<span class="th">' + (l.photo ? '<img src="' + esc(l.photo) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '') + (l.photo ? '' : esc(l.commune || '')) + '</span>';
+}
+function alertRow(r, kind) {
+  var l = r.l, h = l.priceHistory || [];
+  var badge = kind === 'drop' ? '<span class="sc drop">−' + Math.round(h[h.length - 2].p - h[h.length - 1].p).toLocaleString('fr-BE') + ' €</span>' : '<span class="sc">' + r.s.score + '</span>';
+  return '<button class="alert-row" data-act="alertGo" data-id="' + esc(l.id) + '">' + thumb(l) +
+    '<span class="tx"><b>' + eur(l.price) + '</b><span>' + esc([l.commune, l.surface ? l.surface + ' m²' : '', l.bedrooms != null ? l.bedrooms + ' ch.' : ''].filter(Boolean).join(' · ')) + '</span>' +
+    '<span>' + (kind === 'drop' ? 'Nouveau prix sur une annonce gardée' : esc((r.s.reasons[0] || {}).t || 'Correspond à tes critères')) + '</span></span>' + badge + '</button>';
+}
+function maybeAlert() {
+  if (state.alertChecked || state.deck || state.flash) return;
+  state.alertChecked = true;
+  var a = pendingAlerts(), u = untriaged().length;
+  if (!a.cdc.length && !a.drops.length) return;
+  var first = !visit.prev;
+  var html = '<h2 id="sheetTitle">' + (first ? 'Bienvenue sur ton radar' : 'Depuis ta dernière visite') + '</h2>' +
+    '<p class="lead">' + (demoMode() ? 'Exemples, pour te montrer ce que tu verras à l’ouverture.' : (first ? 'Voici ce qui correspond déjà à tes critères.' : 'Ce qui a bougé pendant ton absence.')) + '</p>';
+  if (a.cdc.length) html += '<h3 class="heart">♥ ' + a.cdc.length + ' coup' + (a.cdc.length > 1 ? 's' : '') + ' de cœur</h3>' + a.cdc.slice(0, 5).map(function (r) { return alertRow(r, 'cdc'); }).join('');
+  if (a.drops.length) html += '<h3>Baisse' + (a.drops.length > 1 ? 's' : '') + ' de prix sur ta sélection</h3>' + a.drops.map(function (r) { return alertRow(r, 'drop'); }).join('');
+  html += '<div class="sheet-actions">' + (u ? '<button class="cta" data-act="alertDeck">' + ICON.cards + '<span>Trier ' + (u > 1 ? 'les ' + u + ' annonces' : 'l’annonce') + ' en attente<small>Une à la fois</small></span></button>' : '') +
+    '<button class="btn" data-act="alertClose">Plus tard</button></div>';
+  var sh = document.getElementById('sheet');
+  sh.innerHTML = html; sh.hidden = false; document.getElementById('scrim').hidden = false;
+  document.documentElement.classList.add('locked');
+  state.sheetIds = a.cdc.map(function (r) { return 'c:' + r.l.id; }).concat(a.drops.map(function (r) { var h = r.l.priceHistory; return 'd:' + r.l.id + ':' + h[h.length - 1].p; }));
+}
+function closeSheet() {
+  var seen = LS.get('alerted', {});
+  (state.sheetIds || []).forEach(function (k) { seen[k] = Date.now(); });
+  LS.set('alerted', seen); state.sheetIds = [];
+  document.getElementById('sheet').hidden = true; document.getElementById('scrim').hidden = true;
+  if (!state.deck) document.documentElement.classList.remove('locked');
+}
+
 function load(manual) {
   if (state.loading) return;
   state.loading = true;
@@ -945,9 +1023,11 @@ function load(manual) {
       var el = document.getElementById('l-' + state.flash);
       if (el) setTimeout(function () { el.scrollIntoView({ block: 'start' }); }, 60);
     }
+    maybeAlert();
   });
 }
 document.getElementById('refresh').addEventListener('click', function () { load(true); });
+document.getElementById('scrim').addEventListener('click', closeSheet);
 render();
 load();
 document.addEventListener('visibilitychange', function () { if (!document.hidden) load(); });
