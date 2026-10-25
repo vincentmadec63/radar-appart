@@ -48,7 +48,7 @@
  "pebMax": "D",
  "equip": {
   "exterieur": "nice",
-  "parking": "must"
+  "parking": "nice"
  },
  "threshold": 75,
  "hpu": true
