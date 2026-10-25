@@ -1,0 +1,287 @@
+{
+ "updatedAt": null,
+ "listings": [
+  {
+   "example": true,
+   "sale": "vente",
+   "floor": 3,
+   "exterieur": true,
+   "parking": true,
+   "ascenseur": true,
+   "cave": true,
+   "charges": 140,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5100",
+   "id": "ex1",
+   "source": "immoweb",
+   "url": "https://www.immoweb.be/fr",
+   "sources": [
+    {
+     "name": "immoweb",
+     "url": "https://www.immoweb.be/fr"
+    }
+   ],
+   "title": "Appartement 2 chambres avec terrasse",
+   "commune": "Jambes",
+   "price": 249000,
+   "priceHistory": [
+    {
+     "d": "2026-10-25T06:12:00Z",
+     "p": 249000
+    }
+   ],
+   "surface": 92,
+   "bedrooms": 2,
+   "peb": "C",
+   "photo": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=900&q=70",
+   "extrait": "Lumineux, vue dégagée sur la Meuse, terrasse de 12 m² plein sud, cave et emplacement de parking.",
+   "firstSeen": "2026-10-25T06:12:00Z",
+   "lastSeen": "2026-10-25T06:12:00Z"
+  },
+  {
+   "example": true,
+   "sale": "vente",
+   "floor": 2,
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": false,
+   "cave": true,
+   "charges": null,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5000",
+   "id": "ex2",
+   "source": "zimmo",
+   "url": "https://www.zimmo.be/fr/",
+   "sources": [
+    {
+     "name": "zimmo",
+     "url": "https://www.zimmo.be/fr/"
+    },
+    {
+     "name": "immoweb",
+     "url": "https://www.immoweb.be/fr"
+    }
+   ],
+   "title": "Appartement rénové proche de la Sambre",
+   "commune": "Salzinnes",
+   "price": 219000,
+   "priceHistory": [
+    {
+     "d": "2026-10-24T17:05:00Z",
+     "p": 219000
+    }
+   ],
+   "surface": 78,
+   "bedrooms": 2,
+   "peb": "D",
+   "photo": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=900&q=70",
+   "extrait": "Cuisine équipée neuve, balcon côté jardin, à 10 minutes à pied de la gare.",
+   "firstSeen": "2026-10-24T17:05:00Z",
+   "lastSeen": "2026-10-25T06:30:00Z"
+  },
+  {
+   "example": true,
+   "sale": "vente",
+   "floor": 4,
+   "exterieur": false,
+   "parking": null,
+   "ascenseur": true,
+   "cave": null,
+   "charges": null,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5000",
+   "id": "ex3",
+   "source": "immovlan",
+   "url": "https://immovlan.be/fr",
+   "sources": [
+    {
+     "name": "immovlan",
+     "url": "https://immovlan.be/fr"
+    }
+   ],
+   "title": "Appartement 1 chambre en centre-ville",
+   "commune": "Namur",
+   "price": 189000,
+   "priceHistory": [
+    {
+     "d": "2026-10-24T06:40:00Z",
+     "p": 189000
+    }
+   ],
+   "surface": 58,
+   "bedrooms": 1,
+   "peb": "B",
+   "photo": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=900&q=70",
+   "extrait": "Rue piétonne, à deux pas de la place d’Armes. Pas de parking.",
+   "firstSeen": "2026-10-24T06:40:00Z",
+   "lastSeen": "2026-10-24T06:40:00Z"
+  },
+  {
+   "example": true,
+   "sale": "vente",
+   "floor": 0,
+   "exterieur": true,
+   "parking": true,
+   "ascenseur": null,
+   "cave": true,
+   "charges": null,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5100",
+   "id": "ex4",
+   "source": "immoweb",
+   "url": "https://www.immoweb.be/fr",
+   "sources": [
+    {
+     "name": "immoweb",
+     "url": "https://www.immoweb.be/fr"
+    }
+   ],
+   "title": "Rez-de-jardin 3 chambres",
+   "commune": "Wépion",
+   "price": 299000,
+   "priceHistory": [
+    {
+     "d": "2026-10-12T07:20:00Z",
+     "p": 315000
+    },
+    {
+     "d": "2026-10-23T17:10:00Z",
+     "p": 299000
+    }
+   ],
+   "surface": 118,
+   "bedrooms": 3,
+   "peb": "C",
+   "photo": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=900&q=70",
+   "extrait": "Jardin privatif de 60 m², garage fermé, petite copropriété de 6 logements.",
+   "firstSeen": "2026-10-12T07:20:00Z",
+   "lastSeen": "2026-10-23T17:10:00Z"
+  },
+  {
+   "example": true,
+   "sale": "vente",
+   "floor": 1,
+   "exterieur": false,
+   "parking": true,
+   "ascenseur": false,
+   "cave": true,
+   "charges": null,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5002",
+   "id": "ex5",
+   "source": "zimmo",
+   "url": "https://www.zimmo.be/fr/",
+   "sources": [
+    {
+     "name": "zimmo",
+     "url": "https://www.zimmo.be/fr/"
+    }
+   ],
+   "title": "Appartement 2 chambres avec parking",
+   "commune": "Saint-Servais",
+   "price": 199000,
+   "priceHistory": [
+    {
+     "d": "2026-10-22T06:50:00Z",
+     "p": 199000
+    }
+   ],
+   "surface": 85,
+   "bedrooms": 2,
+   "peb": "E",
+   "photo": "https://images.unsplash.com/photo-1484154218962-a197022b5858?auto=format&fit=crop&w=900&q=70",
+   "extrait": "Châssis simple vitrage à remplacer, chaudière de 2009. Charges 110 € par mois.",
+   "firstSeen": "2026-10-22T06:50:00Z",
+   "lastSeen": "2026-10-22T06:50:00Z"
+  },
+  {
+   "example": true,
+   "sale": "vente",
+   "floor": 2,
+   "exterieur": true,
+   "parking": true,
+   "ascenseur": true,
+   "cave": true,
+   "charges": null,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5101",
+   "id": "ex6",
+   "source": "immovlan",
+   "url": "https://immovlan.be/fr",
+   "sources": [
+    {
+     "name": "immovlan",
+     "url": "https://immovlan.be/fr"
+    }
+   ],
+   "title": "Appartement neuf 2 chambres",
+   "commune": "Erpent",
+   "price": 279000,
+   "priceHistory": [
+    {
+     "d": "2026-10-20T16:45:00Z",
+     "p": 279000
+    }
+   ],
+   "surface": 96,
+   "bedrooms": 2,
+   "peb": "A",
+   "photo": "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=900&q=70",
+   "extrait": "Résidence neuve, terrasse de 15 m², pompe à chaleur, livraison au printemps 2027.",
+   "firstSeen": "2026-10-20T16:45:00Z",
+   "lastSeen": "2026-10-20T16:45:00Z"
+  },
+  {
+   "example": true,
+   "sale": "biddit",
+   "floor": 3,
+   "exterieur": false,
+   "parking": null,
+   "ascenseur": false,
+   "cave": null,
+   "charges": null,
+   "agency": null,
+   "publishedAt": null,
+   "street": null,
+   "postcode": "5004",
+   "id": "ex7",
+   "source": "biddit",
+   "url": "https://www.biddit.be/fr",
+   "sources": [
+    {
+     "name": "biddit",
+     "url": "https://www.biddit.be/fr"
+    }
+   ],
+   "title": "Vente notariale en ligne : appartement 2 chambres",
+   "commune": "Bouge",
+   "price": 169000,
+   "priceHistory": [
+    {
+     "d": "2026-10-05T07:05:00Z",
+     "p": 169000
+    }
+   ],
+   "surface": 74,
+   "bedrooms": 2,
+   "peb": "F",
+   "photo": null,
+   "extrait": "Mise à prix. Enchères en ligne du 3 au 11 novembre, visites sur rendez-vous.",
+   "firstSeen": "2026-10-05T07:05:00Z",
+   "relistedAt": "2026-10-23T07:00:00Z",
+   "lastSeen": "2026-10-23T07:00:00Z"
+  }
+ ]
+}
