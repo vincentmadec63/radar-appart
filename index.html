@@ -473,7 +473,8 @@ function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function
 function eur(n) { return n ? Math.round(n).toLocaleString('fr-BE') + ' €' : 'Prix non indiqué'; }
 function b64(json) { return btoa(unescape(encodeURIComponent(json))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, ''); }
 function unb64(s) { return decodeURIComponent(escape(atob(s.replace(/-/g, '+').replace(/_/g, '/')))); }
-function demoMode() { return !state.criteria && state.listings.length > 0 && state.listings.every(function (l) { return l.example; }); }
+function examplesOnly() { return state.listings.length > 0 && state.listings.every(function (l) { return l.example; }); }
+function demoMode() { return !state.criteria && examplesOnly(); }
 function crit() { return state.criteria || (demoMode() ? DEMO : {}); }
 
 var DAY = 864e5;
@@ -630,7 +631,7 @@ function counts() {
 
 function renderBanners() {
   var b = '', c = state.criteria;
-  if (demoMode()) b += '<div class="note example"><p><strong>Annonces d’exemple</strong>, remplacées à la première relève. Les critères aussi sont des exemples : règle les tiens dans Réglages.</p></div>';
+  if (examplesOnly()) b += '<div class="note example"><p><strong>Annonces d’exemple</strong>, remplacées à la première relève.' + (c ? '' : ' Les critères aussi sont des exemples : règle les tiens dans Réglages.') + '</p></div>';
   if (IOS && !STANDALONE && !LS.get('a2hs', false)) b += '<div class="note"><p><strong>Installe le Radar comme une appli.</strong> Dans Safari, touche le bouton Partager, puis « Sur l’écran d’accueil ».</p><button class="icon-btn" data-act="a2hs" aria-label="Masquer ce conseil">' + ICON.close + '</button></div>';
   if (!c && !demoMode()) b += '<div class="setup"><h2>Trois réglages pour activer ton score</h2><p>Le fil est déjà trié par date. Avec ton budget, tes chambres et ta surface, chaque annonce reçoit un score et les coups de cœur ressortent.</p><div class="row">' +
     '<label class="field">Budget max (€)<input type="number" inputmode="numeric" id="q-budget" placeholder="250000" enterkeyhint="next"></label>' +
@@ -1091,7 +1092,7 @@ function maybeAlert() {
   if (!a.cdc.length && !a.drops.length) return;
   var first = !visit.prev;
   var html = '<h2 id="sheetTitle">' + (first ? 'Bienvenue sur ton radar' : 'Depuis ta dernière visite') + '</h2>' +
-    '<p class="lead">' + (demoMode() ? 'Exemples, pour te montrer ce que tu verras à l’ouverture.' : (first ? 'Voici ce qui correspond déjà à tes critères.' : 'Ce qui a bougé pendant ton absence.')) + '</p>';
+    '<p class="lead">' + (examplesOnly() ? 'Exemples, pour te montrer ce que tu verras à l’ouverture.' : (first ? 'Voici ce qui correspond déjà à tes critères.' : 'Ce qui a bougé pendant ton absence.')) + '</p>';
   if (a.cdc.length) html += '<h3 class="heart">♥ ' + a.cdc.length + ' coup' + (a.cdc.length > 1 ? 's' : '') + ' de cœur</h3>' + a.cdc.slice(0, 5).map(function (r) { return alertRow(r, 'cdc'); }).join('');
   if (a.drops.length) html += '<h3>Baisse' + (a.drops.length > 1 ? 's' : '') + ' de prix sur ta sélection</h3>' + a.drops.map(function (r) { return alertRow(r, 'drop'); }).join('');
   html += '<div class="sheet-actions">' + (u ? '<button class="cta" data-act="alertDeck">' + ICON.cards + '<span>Trier ' + (u > 1 ? 'les ' + u + ' annonces' : 'l’annonce') + ' en attente<small>Une à la fois</small></span></button>' : '') +
@@ -1116,7 +1117,8 @@ function load(manual) {
   var bust = '?t=' + Date.now();
   Promise.all([
     fetch('data/listings.json' + bust, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : { listings: [] }; }).catch(function () { return null; }),
-    fetch('data/meta.json' + bust, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return null; })
+    fetch('data/meta.json' + bust, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return null; }),
+    fetch('data/criteria.json' + bust, { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; })
   ]).then(function (res) {
     state.loading = false; btn.classList.remove('spin');
     if (!res[0]) { if (manual) toast('Pas de connexion, réessaie plus tard'); return; }
@@ -1127,6 +1129,8 @@ function load(manual) {
       return l;
     });
     state.meta = res[1] || {};
+    // Critères du dépôt (ceux de la relève), tant qu'aucun réglage n'a été fait sur ce téléphone.
+    if (res[2] && !LS.get('criteria', null)) state.criteria = res[2];
     var typing = document.activeElement && /INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName);
     if (!typing) keepScroll(render); else renderSync();
     if (manual) toast(state.listings.length > before && before ? (state.listings.length - before) + ' nouvelle(s) annonce(s)' : 'À jour');

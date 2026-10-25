@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /* Relève : fusionne les annonces extraites des alertes e-mail dans data/listings.json.
-   Usage : node scripts/releve.cjs --incoming incoming.json [--criteria criteria.json] [--notes notes.json] [--now ISO]
+   Usage : node scripts/releve.cjs --incoming incoming.json [--criteria criteria.json, par défaut data/criteria.json] [--notes notes.json] [--now ISO]
    Écrit data/listings.json et data/meta.json, puis imprime un résumé JSON sur la sortie standard. */
 'use strict';
 const fs = require('fs');
@@ -16,7 +16,7 @@ const now = args.now || new Date().toISOString();
 
 const db = read(path.join(root, 'data/listings.json'), { listings: [] });
 const incoming = args.incoming ? read(args.incoming, []) : [];
-const criteria = args.criteria ? read(args.criteria, {}) : {};
+const criteria = read(args.criteria || path.join(root, 'data/criteria.json'), {});
 const notes = args.notes ? read(args.notes, []) : [];
 
 if (!Array.isArray(incoming)) { console.error('incoming doit être un tableau'); process.exit(1); }

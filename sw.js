@@ -1,8 +1,8 @@
 /* Radar Appart : garde une copie de l'appli et des dernières annonces pour l'ouvrir sans réseau.
    Réseau d'abord (les annonces restent à jour), copie locale si le réseau manque ou traîne. */
 'use strict';
-const CACHE = 'radar-appart-v1';
-const SHELL = ['./', 'index.html', 'engine.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/apple-touch-icon.png', 'data/listings.json', 'data/meta.json'];
+const CACHE = 'radar-appart-v2';
+const SHELL = ['./', 'index.html', 'engine.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/apple-touch-icon.png', 'data/listings.json', 'data/meta.json', 'data/criteria.json'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
