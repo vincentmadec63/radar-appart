@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-26T17:38:37.567Z",
+ "lastRun": "2026-10-26T17:43:06.839Z",
  "added": 0,
  "priceDrops": 0,
  "total": 20,
@@ -11,19 +11,13 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Cap Sud Namur : site de l'agence introuvable",
-  "ERA (Namur) : site de l'agence introuvable",
-  "ED Immo : site de l'agence introuvable",
-  "AD-Immo : site de l'agence introuvable",
-  "Meusardennes : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
-  "Nam Property : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
-  "HV Immobilier : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
-  "Trevi Namur : annonces illisibles (chargées en JavaScript)",
-  "Century 21 : annonces illisibles (chargées en JavaScript)",
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence toujours introuvable (pas de nouvelle recherche cette fois)",
+  "Meusardennes, Nam Property, HV Immobilier, Trevi Namur, Century 21 : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
   "Abras Immobilier : aucun bien en vente affiché",
-  "Easyhome : les 2 appartements listés (Jambes, Andenne) sont vendus selon leur fiche",
-  "Innov’Expert : 7 fiches renvoient vers une autre annonce (Erpent) ; ajoutées sans photo d'après la liste « à vendre »",
-  "Agences : 13 annonce(s) retenue(s) sur 15 sites lus"
+  "Easyhome : appartements Jambes (99 000 €) et Andenne (99 000 €) toujours listés mais vendus selon leur fiche",
+  "Innov’Expert : Sambreville (Principauté 9), Ohey (Clos de Maillen), Namur (Rue Mazy 171) et Jambes (Masuis Jambois 5, 57 et 73 m²) sous option : non retenus",
+  "Photos manquantes non recherchées cette relève (limitation des demandes d'accès)",
+  "Agences : 0 annonce(s) nouvelle(s) retenue(s) sur 12 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
