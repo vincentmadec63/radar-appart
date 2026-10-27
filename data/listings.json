@@ -1,6 +1,272 @@
 {
- "updatedAt": "2026-10-27T17:38:10.739Z",
+ "updatedAt": "2026-10-27T17:51:44.042Z",
  "listings": [
+  {
+   "id": "1kiqhy7",
+   "url": "https://abras-immo.be/achat,appartement-appartement-2-chambres-a-namur,7876431",
+   "source": "abras",
+   "sources": [
+    {
+     "name": "abras",
+     "url": "https://abras-immo.be/achat,appartement-appartement-2-chambres-a-namur,7876431"
+    }
+   ],
+   "price": 128000,
+   "priceHistory": [
+    {
+     "d": "2026-10-27T17:51:28Z",
+     "p": 128000
+    }
+   ],
+   "firstSeen": "2026-10-27T17:51:28Z",
+   "lastSeen": "2026-10-27T17:51:28Z",
+   "title": "Appartement 2 chambres à Namur",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 56,
+   "bedrooms": 2,
+   "floor": 3,
+   "peb": "E",
+   "exterieur": false,
+   "parking": null,
+   "ascenseur": false,
+   "cave": false,
+   "charges": null,
+   "photo": "https://p-static.alveen.com/photos/1600/4102/c4102-b3489634-r8696.jpg",
+   "agency": "Abras Immobilier",
+   "publishedAt": null,
+   "extrait": "Actuellement loué, il constitue une belle opportunité d’investissement.",
+   "sale": "vente",
+   "street": "Rue Edouard Ronvaux 4"
+  },
+  {
+   "id": "elalzu",
+   "url": "https://abras-immo.be/achat,appartement-appartement-3-chambres-partiellement-renove,7814090",
+   "source": "abras",
+   "sources": [
+    {
+     "name": "abras",
+     "url": "https://abras-immo.be/achat,appartement-appartement-3-chambres-partiellement-renove,7814090"
+    }
+   ],
+   "price": 220000,
+   "priceHistory": [
+    {
+     "d": "2026-10-27T17:51:28Z",
+     "p": 220000
+    }
+   ],
+   "firstSeen": "2026-10-27T17:51:28Z",
+   "lastSeen": "2026-10-27T17:51:28Z",
+   "title": "Appartement 3 chambres partiellement rénové",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 71,
+   "bedrooms": 3,
+   "floor": 10,
+   "peb": "C",
+   "exterieur": false,
+   "parking": null,
+   "ascenseur": true,
+   "cave": false,
+   "charges": null,
+   "photo": "https://p-static.alveen.com/photos/1600/4102/c4102-b3435433-r4600.jpg",
+   "agency": "Abras Immobilier",
+   "publishedAt": null,
+   "extrait": "Ce bien vous séduira notamment par sa vue imprenable sur la Sambre.",
+   "sale": "vente",
+   "street": "Quai de l'Ecluse 9"
+  },
+  {
+   "id": "1kwuuvi",
+   "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/173428",
+   "source": "weinvest",
+   "sources": [
+    {
+     "name": "weinvest",
+     "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/173428"
+    }
+   ],
+   "price": 175000,
+   "priceHistory": [
+    {
+     "d": "2026-10-27T17:51:28Z",
+     "p": 175000
+    }
+   ],
+   "firstSeen": "2026-10-27T17:51:28Z",
+   "lastSeen": "2026-10-27T17:51:28Z",
+   "title": "Appartement 1 chambre",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 41,
+   "bedrooms": 1,
+   "floor": 3,
+   "peb": "C",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": true,
+   "cave": null,
+   "charges": 250,
+   "photo": "https://asgard-odin.s3.eu-west-3.amazonaws.com/production/public/picture/cabd3507-d083-4abb-9d5c-085ac538ad15.jpg",
+   "agency": "We Invest",
+   "publishedAt": null,
+   "extrait": "Entièrement rénové il y a une dizaine d'années.",
+   "sale": "vente",
+   "street": "Quai de l'Écluse 9"
+  },
+  {
+   "id": "tihqmy",
+   "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/172948",
+   "source": "weinvest",
+   "sources": [
+    {
+     "name": "weinvest",
+     "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/172948"
+    }
+   ],
+   "price": 175000,
+   "priceHistory": [
+    {
+     "d": "2026-10-27T17:51:28Z",
+     "p": 175000
+    }
+   ],
+   "firstSeen": "2026-10-27T17:51:28Z",
+   "lastSeen": "2026-10-27T17:51:28Z",
+   "title": "Appartement 2 chambres (résidence Saint-Georges, Salzinnes)",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 65,
+   "bedrooms": 2,
+   "floor": -1,
+   "peb": "D",
+   "exterieur": null,
+   "parking": false,
+   "ascenseur": true,
+   "cave": false,
+   "charges": null,
+   "photo": "https://asgard-odin.s3.eu-west-3.amazonaws.com/production/public/picture/fd354e14-6489-454e-bf9c-d0f021b3ff78.jpg",
+   "agency": "We Invest",
+   "publishedAt": null,
+   "extrait": "Appartement idéal pour un premier achat ou un investissement, entièrement rénové.",
+   "sale": "vente",
+   "street": "Rue Château des Balances 1"
+  },
+  {
+   "id": "1ngmuxp",
+   "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/172105",
+   "source": "weinvest",
+   "sources": [
+    {
+     "name": "weinvest",
+     "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/172105"
+    }
+   ],
+   "price": 169000,
+   "priceHistory": [
+    {
+     "d": "2026-10-27T17:51:28Z",
+     "p": 169000
+    }
+   ],
+   "firstSeen": "2026-10-27T17:51:28Z",
+   "lastSeen": "2026-10-27T17:51:28Z",
+   "title": "Studio rue de Bruxelles",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 41,
+   "bedrooms": 0,
+   "floor": 1,
+   "peb": "B",
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": 80,
+   "photo": "https://asgard-odin.s3.eu-west-3.amazonaws.com/production/public/picture/45d9fb9a-a3ee-4ff3-9bd0-708b1c4580e2.jpg",
+   "agency": "We Invest",
+   "publishedAt": null,
+   "extrait": "Idéalement situé dans la rue principale des Facultés Universitaires.",
+   "sale": "vente",
+   "street": "Rue de Bruxelles 104"
+  },
+  {
+   "id": "1q7hhka",
+   "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/171044",
+   "source": "weinvest",
+   "sources": [
+    {
+     "name": "weinvest",
+     "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/171044"
+    }
+   ],
+   "price": 224000,
+   "priceHistory": [
+    {
+     "d": "2026-10-27T17:51:28Z",
+     "p": 224000
+    }
+   ],
+   "firstSeen": "2026-10-27T17:51:28Z",
+   "lastSeen": "2026-10-27T17:51:28Z",
+   "title": "Appartement 2 chambres avec parking",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 84,
+   "bedrooms": 2,
+   "floor": 3,
+   "peb": "C",
+   "exterieur": null,
+   "parking": true,
+   "ascenseur": true,
+   "cave": null,
+   "charges": null,
+   "photo": "https://asgard-odin.s3.eu-west-3.amazonaws.com/production/public/picture/6addddb5-0c4c-49b8-905b-2f77b3828f6e.jpg",
+   "agency": "We Invest",
+   "publishedAt": null,
+   "extrait": "Appartement 2 chambres, avec emplacement de parking extérieur et grenier.",
+   "sale": "vente",
+   "street": "Quai de l'Écluse 7"
+  },
+  {
+   "id": "ig7u29",
+   "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/149150",
+   "source": "weinvest",
+   "sources": [
+    {
+     "name": "weinvest",
+     "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/149150"
+    }
+   ],
+   "price": 239000,
+   "priceHistory": [
+    {
+     "d": "2026-10-27T17:51:28Z",
+     "p": 239000
+    }
+   ],
+   "firstSeen": "2026-10-27T17:51:28Z",
+   "lastSeen": "2026-10-27T17:51:28Z",
+   "title": "Appartement rénové 2 chambres, terrasse et garage",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 62,
+   "bedrooms": 2,
+   "floor": 0,
+   "peb": "D",
+   "exterieur": true,
+   "parking": true,
+   "ascenseur": false,
+   "cave": true,
+   "charges": null,
+   "photo": "https://asgard-odin.s3.eu-west-3.amazonaws.com/production/public/picture/d2569ac8-1e23-4169-a291-596c8e0cdba6.jpg",
+   "agency": "We Invest",
+   "publishedAt": null,
+   "extrait": "Splendide appartement entièrement rénové, situé au rez-de-chaussée.",
+   "sale": "vente",
+   "street": "Rue Saint-Nicolas 60"
+  },
   {
    "id": "1c6asdl",
    "url": "https://www.innov-expert.be/bien-a-vendre?id=4038&bien=RUE%20DU%20FAYS%2014%20COURRI%C3%88RE",

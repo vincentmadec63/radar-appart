@@ -1,9 +1,11 @@
 {
- "lastRun": "2026-10-27T17:38:10.739Z",
- "added": 0,
+ "lastRun": "2026-10-27T17:51:44.042Z",
+ "added": 7,
  "priceDrops": 0,
- "total": 20,
+ "total": 27,
  "sources": {
+  "abras": 2,
+  "weinvest": 5,
   "innovexpert": 13,
   "gilmont": 1,
   "simmo": 4,
@@ -11,13 +13,12 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence toujours introuvable (pas de nouvelle recherche cette fois)",
-  "Meusardennes, Nam Property, HV Immobilier, Trevi Namur, Century 21 : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
-  "Abras Immobilier : aucun bien en vente affiché",
-  "Easyhome : appartements Jambes (99 000 €) et Andenne (99 000 €) toujours listés mais vendus selon leur fiche",
-  "Innov’Expert : Sambreville (Principauté 9), Ohey (Clos de Maillen), Namur (Rue Mazy 171) et Jambes (Masuis Jambois 5, 57 et 73 m²) sous option : non retenus",
-  "Photos manquantes non recherchées cette relève (limitation des demandes d'accès)",
-  "Agences : 0 annonce(s) nouvelle(s) retenue(s) sur 12 sites lus"
+  "Cap Sud, ERA, ED Immo, AD-Immo : site de l'agence introuvable",
+  "Meusardennes, Nam Property, HV Immobilier, Trevi Namur, Century 21, ISEO, S-Immo, Pierre Marlair, Innov'Expert : sites inaccessibles depuis cette session (accès direct refusé)",
+  "Latour & Petit : Saint-Servais 2 ch. 110 m² (295 000 €) sous option",
+  "Easyhome : Jambes et Andenne (99 000 €) toujours listés, vendus selon relève précédente",
+  "Photos manquantes (7 fiches Innov'Expert) non récupérées : site inaccessible",
+  "Agences : 7 annonce(s) retenue(s) sur 6 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
