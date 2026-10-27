@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-27T06:38:37.255Z",
+ "lastRun": "2026-10-27T06:44:03.720Z",
  "added": 0,
  "priceDrops": 0,
  "total": 20,
@@ -11,13 +11,9 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence toujours introuvable (pas de nouvelle recherche cette fois)",
-  "Meusardennes, Nam Property, HV Immobilier, Trevi Namur, Century 21 : annonces illisibles (chargées en JavaScript, accès direct bloqué)",
-  "Abras Immobilier : aucun bien en vente affiché",
-  "Easyhome : appartements Jambes (99 000 €) et Andenne (99 000 €) toujours listés mais vendus selon leur fiche",
-  "Innov’Expert : Sambreville (Principauté 9), Ohey (Clos de Maillen), Namur (Rue Mazy 171) et Jambes (Masuis Jambois 5, 57 et 73 m²) sous option : non retenus",
-  "Photos manquantes non recherchées cette relève (limitation des demandes d'accès)",
-  "Agences : 0 annonce(s) nouvelle(s) retenue(s) sur 12 sites lus"
+  "Sites d'agences non lus cette relève : lecture web non autorisée sans validation (WebFetch) et accès direct refusé par le proxy réseau (403) ; annonces existantes conservées telles quelles",
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
