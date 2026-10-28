@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-28T17:38:46.306Z",
+ "lastRun": "2026-10-28T17:44:21.783Z",
  "added": 0,
  "priceDrops": 0,
  "total": 27,
@@ -13,7 +13,7 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites d'agences non lus cette relève : la lecture des pages web n'a pas été autorisée pendant la session automatique (demande d'autorisation restée sans réponse)",
+  "Sites d'agences non lus : lecture web non autorisée pendant la session automatique (WebFetch : demande d'autorisation sans réponse ; curl : proxy 403 CONNECT)",
   "Cap Sud, ERA, ED Immo, AD-Immo : site de l'agence introuvable (recherche web sans résultat officiel)",
   "Photos manquantes (7 fiches Innov'Expert) non récupérées : pages non lisibles cette relève",
   "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
