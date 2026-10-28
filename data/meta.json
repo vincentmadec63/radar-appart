@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-28T06:38:45.336Z",
+ "lastRun": "2026-10-28T06:44:48.848Z",
  "added": 0,
  "priceDrops": 0,
  "total": 27,
@@ -13,12 +13,10 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Cap Sud, ERA, ED Immo, AD-Immo : site de l'agence introuvable",
-  "Meusardennes, Nam Property, HV Immobilier, Trevi Namur, Century 21, ISEO, S-Immo, Pierre Marlair, Innov'Expert : sites inaccessibles depuis cette session (accès direct refusé)",
-  "Latour & Petit : Saint-Servais 2 ch. 110 m² (295 000 €) sous option",
-  "Easyhome : Jambes et Andenne (99 000 €) toujours listés, vendus selon relève précédente",
-  "Photos manquantes (7 fiches Innov'Expert) non récupérées : site inaccessible",
-  "Agences : 7 annonce(s) retenue(s) sur 6 sites lus"
+  "Sites d'agences non lus cette relève : la lecture des pages web n'a pas été autorisée pendant la session automatique (demande d'autorisation restée sans réponse)",
+  "Cap Sud, ERA, ED Immo, AD-Immo : site de l'agence introuvable (recherche web sans résultat officiel)",
+  "Photos manquantes (7 fiches Innov'Expert) non récupérées : pages non lisibles cette relève",
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
