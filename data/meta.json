@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-29T17:38:51.464Z",
+ "lastRun": "2026-10-29T17:50:18.797Z",
  "added": 0,
  "priceDrops": 0,
  "total": 27,
@@ -13,13 +13,13 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Lecture web en attente d’autorisation pendant la relève automatique : Easyhome, Meusardennes, Gilmont, ISEO, Nam Property, S-Immo, Abras, Stag, We Invest non lus (demande non validée à temps) ; HV Immobilier, Pierre Marlair, Latour & Petit, Trevi, Century 21 non tentés",
-  "Meusardennes, Nam Property, HV Immobilier : site inaccessible (proxy 403 en lecture directe)",
-  "Cap Sud, ERA, ED Immo, AD-Immo : site de l’agence introuvable",
-  "Innov’Expert : 8 nouveaux appartements dans le budget (Ohey ×4, Jambes ×2, Sambreville, studio Namur rue Mazy) écartés car sous option",
-  "Namur, 195 000 € (place Léopold 2/5) : sous option selon l’agence",
-  "Jambes, 219 000 € (rue Kefer 6) : sous option selon l’agence",
-  "Agences : 0 annonce(s) retenue(s) sur 1 sites lus (13 fiches Innov’Expert déjà connues revues, 7 photos ajoutées)"
+  "Easyhome : site inaccessible (erreur client)",
+  "Abras : la page n'affiche aucun bien (« Aucun bien disponible pour l'instant ») ; 2 fiches déjà connues non revues",
+  "Meusardennes, Nam Property, HV Immobilier : site inaccessible (proxy, connexion refusée)",
+  "We Invest, Pierre Marlair, Latour & Petit, Innov'Expert : lecture web non autorisée pendant la relève automatique (demande non validée à temps)",
+  "Trevi, Century 21 : annonces chargées en JavaScript, non lues",
+  "Cap Sud, ERA, ED Immo, AD-Immo : site de l'agence introuvable",
+  "Agences : 0 annonce(s) retenue(s) sur 5 sites lus (Gilmont, ISEO, S-Immo, Stag, Abras ; 7 fiches déjà connues revues)"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
