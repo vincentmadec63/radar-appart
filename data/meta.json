@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-10-30T06:38:29.106Z",
+ "lastRun": "2026-10-30T06:44:14.453Z",
  "added": 0,
  "priceDrops": 0,
  "total": 27,
@@ -13,13 +13,11 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Easyhome : site inaccessible (erreur client)",
-  "Abras : la page n'affiche aucun bien (« Aucun bien disponible pour l'instant ») ; 2 fiches déjà connues non revues",
+  "Gilmont, ISEO, S-Immo, Stag, Abras, We Invest, Pierre Marlair, Latour & Petit, Innov'Expert, Easyhome : lecture web non autorisée pendant la relève automatique (demande d'autorisation non validée à temps)",
   "Meusardennes, Nam Property, HV Immobilier : site inaccessible (proxy, connexion refusée)",
-  "We Invest, Pierre Marlair, Latour & Petit, Innov'Expert : lecture web non autorisée pendant la relève automatique (demande non validée à temps)",
   "Trevi, Century 21 : annonces chargées en JavaScript, non lues",
   "Cap Sud, ERA, ED Immo, AD-Immo : site de l'agence introuvable",
-  "Agences : 0 annonce(s) retenue(s) sur 5 sites lus (Gilmont, ISEO, S-Immo, Stag, Abras ; 7 fiches déjà connues revues)"
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
