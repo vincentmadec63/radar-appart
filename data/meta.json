@@ -1,26 +1,26 @@
 {
- "lastRun": "2026-11-01T17:38:06.790Z",
- "added": 0,
+ "lastRun": "2026-11-01T17:54:04.831Z",
+ "added": 2,
  "priceDrops": 0,
- "total": 27,
+ "total": 29,
  "sources": {
+  "innovexpert": 15,
   "abras": 2,
   "weinvest": 5,
-  "innovexpert": 13,
   "gilmont": 1,
   "simmo": 4,
   "stag": 2
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites d'agences (Easyhome, Gilmont, ISEO, S-Immo, Abras, Stag, We Invest, Pierre Marlair, Latour & Petit, Innov'Expert) : lecture web non autorisée pendant la relève automatique (demande d'autorisation non validée à temps)",
+  "Easyhome, Pierre Marlair : lecture web non autorisée pendant la relève automatique (demande d'autorisation non validée à temps)",
   "Meusardennes, Nam Property, HV Immobilier : site inaccessible (connexion refusée par le proxy)",
   "Trevi, Century 21 : annonces en JavaScript, non lues",
-  "Cap Sud : site de l'agence introuvable",
-  "ERA (Namur) : site de l'agence introuvable",
-  "ED Immo : site de l'agence introuvable",
-  "AD-Immo : site de l'agence introuvable",
-  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
+  "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
+  "Abras : aucun bien en ligne actuellement (les 2 annonces Abras du radar ne sont plus affichées)",
+  "We Invest : la page affiche seulement des biens bruxellois ; les 5 annonces namuroises du radar n'y figurent plus",
+  "Innov'Expert : 8 appartements dans les critères (Ohey ×4, Sambreville, Namur Rue Mazy, Jambes Masuis Jambois ×2) sont sous option, écartés",
+  "Agences : 21 annonce(s) retenue(s) sur 8 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
