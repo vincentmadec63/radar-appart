@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-02T17:46:11.204Z",
+ "lastRun": "2026-11-02T17:47:45.145Z",
  "added": 0,
  "priceDrops": 0,
  "total": 31,
@@ -15,14 +15,14 @@
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
   "Meusardennes, Nam Property, HV Immobilier : site inaccessible (connexion refusée par le proxy)",
+  "Pierre Marlair : site inaccessible (robots.txt interdit la lecture)",
   "Trevi, Century 21 : annonces en JavaScript, non lues",
   "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l’agence introuvable",
-  "Easyhome : les appartements de Jambes (60 m², en fait un bateau) et d’Andenne (71 m²) sont vendus selon leur fiche, écartés",
+  "Easyhome : appartements de Jambes (60 m²) et d’Andenne (71 m²) toujours écartés (vendus selon leur fiche)",
   "Abras : aucun bien en ligne actuellement",
-  "We Invest : la page affiche seulement des biens bruxellois",
+  "We Invest : aucun bien en province de Namur sur la page",
   "Latour & Petit : aucun bien dans la région de Namur",
-  "Innov’Expert : Rue Mazy (Namur), Sambreville, Ohey ×4 et Masuis Jambois (Jambes) sont sous option, écartés",
-  "Agences : 23 annonce(s) retenue(s) sur 12 sites lus"
+  "Agences : 21 annonce(s) retenue(s) sur 12 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
