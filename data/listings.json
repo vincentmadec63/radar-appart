@@ -1,6 +1,82 @@
 {
- "updatedAt": "2026-11-02T06:38:27.064Z",
+ "updatedAt": "2026-11-02T06:42:08.747Z",
  "listings": [
+  {
+   "id": "xt9in7",
+   "url": "https://www.pierremarlair.be/oc/liste-proprietes/acheter-0/2862-appartement-1ch-avec-1-cave.html",
+   "source": "marlair",
+   "sources": [
+    {
+     "name": "marlair",
+     "url": "https://www.pierremarlair.be/oc/liste-proprietes/acheter-0/2862-appartement-1ch-avec-1-cave.html"
+    }
+   ],
+   "price": 145000,
+   "priceHistory": [
+    {
+     "d": "2026-11-02T06:41:50Z",
+     "p": 145000
+    }
+   ],
+   "firstSeen": "2026-11-02T06:41:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
+   "title": "Appartement 1 chambre avec cave",
+   "commune": "Jambes",
+   "postcode": "5100",
+   "surface": 50,
+   "bedrooms": 1,
+   "floor": 1,
+   "peb": "C",
+   "exterieur": null,
+   "parking": false,
+   "ascenseur": null,
+   "cave": true,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/806-20200910090622/0/221/E3639281977381136767_2862AL.jpg?639281912367530000",
+   "agency": "Pierre Marlair & Co",
+   "publishedAt": null,
+   "extrait": "Appartement d’une chambre au 1er étage d’un immeuble de trois logements, proche des commerces et de la Meuse, avec cave privative.",
+   "sale": "vente",
+   "street": "Rue Charles Lamquet"
+  },
+  {
+   "id": "1sdtm5r",
+   "url": "https://www.pierremarlair.be/oc/liste-proprietes/acheter-0/2863-studio-avec-emplacement-de-parking-interieur-en-option.html",
+   "source": "marlair",
+   "sources": [
+    {
+     "name": "marlair",
+     "url": "https://www.pierremarlair.be/oc/liste-proprietes/acheter-0/2863-studio-avec-emplacement-de-parking-interieur-en-option.html"
+    }
+   ],
+   "price": 115000,
+   "priceHistory": [
+    {
+     "d": "2026-11-02T06:41:50Z",
+     "p": 115000
+    }
+   ],
+   "firstSeen": "2026-11-02T06:41:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
+   "title": "Studio avec emplacement de parking intérieur en option",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 36,
+   "bedrooms": 0,
+   "floor": null,
+   "peb": null,
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": true,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/806-20200910090622/0/221/E2639282731207097106_2863AL.jpg?639286062754450000",
+   "agency": "Pierre Marlair & Co",
+   "publishedAt": null,
+   "extrait": "Studio lumineux au dernier étage avec ascenseur, cuisine US équipée, salle de bains et balcon, proche des commerces.",
+   "sale": "vente",
+   "street": null
+  },
   {
    "id": "em1p1m",
    "url": "https://www.innov-expert.be/bien-a-vendre?id=4079",
@@ -19,7 +95,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Studio à Erpent",
    "commune": "Erpent",
    "postcode": "5101",
@@ -57,7 +133,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement neuf 2 chambres à Franière",
    "commune": "Franière",
    "postcode": "5150",
@@ -361,7 +437,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres – Courrière",
    "commune": "Courrière",
    "postcode": "5336",
@@ -399,7 +475,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -437,7 +513,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -475,7 +551,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -513,7 +589,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -551,7 +627,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -589,7 +665,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -627,7 +703,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -665,7 +741,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -703,7 +779,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Studio – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -741,7 +817,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -779,7 +855,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -817,7 +893,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -855,7 +931,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Duplex 2 chambres de 95 m²",
    "commune": "Namur",
    "postcode": "5000",
@@ -893,7 +969,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 1 chambre à Cognelée",
    "commune": "Cognelée",
    "postcode": null,
@@ -931,7 +1007,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-10-29T17:50:06Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement centre de Namur",
    "commune": "Namur",
    "postcode": null,
@@ -969,7 +1045,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement 2 chambres",
    "commune": "Namur",
    "postcode": null,
@@ -1045,7 +1121,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Quartier Citadelle : studio lumineux avec terrasse",
    "commune": "Namur",
    "postcode": "5000",
@@ -1083,7 +1159,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-01T17:53:50Z",
+   "lastSeen": "2026-11-02T06:41:50Z",
    "title": "Appartement traversant 1 ch. avec terrasse (possibilité 2 ch.)",
    "commune": "Namur",
    "postcode": "5000",
