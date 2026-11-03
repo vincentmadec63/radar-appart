@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-03T17:39:05.677Z",
+ "updatedAt": "2026-11-03T17:48:24.765Z",
  "listings": [
   {
    "id": "xt9in7",
@@ -95,7 +95,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Studio à Erpent",
    "commune": "Erpent",
    "postcode": "5101",
@@ -133,7 +133,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement neuf 2 chambres à Franière",
    "commune": "Franière",
    "postcode": "5150",
@@ -247,7 +247,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 1 chambre",
    "commune": "Namur",
    "postcode": "5000",
@@ -285,7 +285,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres (résidence Saint-Georges, Salzinnes)",
    "commune": "Namur",
    "postcode": "5000",
@@ -323,7 +323,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Studio rue de Bruxelles",
    "commune": "Namur",
    "postcode": "5000",
@@ -361,7 +361,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres avec parking",
    "commune": "Namur",
    "postcode": "5000",
@@ -399,7 +399,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement rénové 2 chambres, terrasse et garage",
    "commune": "Namur",
    "postcode": "5000",
@@ -437,7 +437,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres – Courrière",
    "commune": "Courrière",
    "postcode": "5336",
@@ -475,7 +475,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -513,7 +513,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -551,7 +551,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -589,7 +589,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -627,7 +627,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -665,7 +665,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -703,7 +703,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -741,7 +741,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -779,7 +779,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Studio – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -817,7 +817,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -855,7 +855,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -893,7 +893,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement 2 chambres – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -931,7 +931,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Duplex 2 chambres de 95 m²",
    "commune": "Namur",
    "postcode": "5000",
@@ -1121,7 +1121,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Quartier Citadelle : studio lumineux avec terrasse",
    "commune": "Namur",
    "postcode": "5000",
@@ -1159,7 +1159,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-03T06:48:03Z",
+   "lastSeen": "2026-11-03T17:48:24Z",
    "title": "Appartement traversant 1 ch. avec terrasse (possibilité 2 ch.)",
    "commune": "Namur",
    "postcode": "5000",
