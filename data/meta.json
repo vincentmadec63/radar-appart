@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-03T06:38:11.925Z",
+ "lastRun": "2026-11-03T06:48:11.650Z",
  "added": 0,
  "priceDrops": 0,
  "total": 31,
@@ -14,15 +14,18 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
+  "Lecture directe (curl) des sites d’agences refusée par le proxy ; pages lues via WebFetch quand elles étaient accessibles",
   "Meusardennes, Nam Property, HV Immobilier : site inaccessible (connexion refusée par le proxy)",
   "Pierre Marlair : site inaccessible (robots.txt interdit la lecture)",
+  "S-Immo : site inaccessible (redirection en boucle vers http)",
+  "Latour & Petit : page liste non lue cette fois",
   "Trevi, Century 21 : annonces en JavaScript, non lues",
   "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l’agence introuvable",
   "Easyhome : appartements de Jambes (60 m²) et d’Andenne (71 m²) toujours écartés (vendus selon leur fiche)",
-  "Abras : aucun bien en ligne actuellement",
-  "We Invest : aucun bien en province de Namur sur la page",
-  "Latour & Petit : aucun bien dans la région de Namur",
-  "Agences : 21 annonce(s) retenue(s) sur 12 sites lus"
+  "Innov’Expert : nouveaux biens de Sambreville, Ohey, Jambes (Mazy, Masuis Jambois) écartés (sous option)",
+  "ISEO : aucun appartement à vendre (seulement vendus ou en location)",
+  "We Invest : aucun nouvel appartement en province de Namur dans le budget",
+  "Agences : 25 annonce(s) retenue(s) sur 8 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
