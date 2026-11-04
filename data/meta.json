@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-04T17:44:18.868Z",
+ "lastRun": "2026-11-04T17:38:38.543Z",
  "added": 0,
  "priceDrops": 0,
  "total": 31,
@@ -14,11 +14,19 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Relève du 04/11 soir : lecture des sites d'agences bloquée (autorisation WebFetch non accordée pendant la session non surveillée) ; annonces existantes non revérifiées",
   "Meusardennes, Nam Property, HV Immobilier : site inaccessible (connexion refusée par le proxy)",
+  "Pierre Marlair : site inaccessible (robots.txt interdit la lecture) ; ses 2 annonces non revérifiées",
+  "S-Immo : site inaccessible (redirection en boucle vers http) ; ses 4 annonces non revérifiées",
+  "Latour & Petit : site inaccessible (erreur à la lecture de la fiche)",
+  "Abras : page appartements vide (« Aucun bien disponible ») ; ses 2 annonces ne sont plus affichées",
   "Trevi, Century 21 : annonces en JavaScript, non lues",
   "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l’agence introuvable",
-  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
+  "Easyhome : appartements de Jambes (60 m²) et d’Andenne (71 m²) toujours écartés (vendus selon leur fiche)",
+  "Innov’Expert : Mazy (Namur), Masuis Jambois (Jambes), Sambreville, Ohey toujours sous option",
+  "Innov’Expert : Namur place Léopold (195 000 €) et Jambes rue Kefer (219 000 €) ne figurent plus dans la liste des biens à vendre",
+  "ISEO : aucun appartement à vendre (seulement vendus ou en location)",
+  "We Invest, Stag, Gilmont : aucun nouvel appartement dans le budget",
+  "Agences : 21 annonce(s) retenue(s) sur 8 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
