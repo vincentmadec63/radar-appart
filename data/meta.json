@@ -1,32 +1,30 @@
 {
- "lastRun": "2026-11-05T06:38:10.054Z",
- "added": 0,
- "priceDrops": 0,
- "total": 31,
+ "lastRun": "2026-11-05T06:46:42.239Z",
+ "added": 2,
+ "priceDrops": 1,
+ "total": 33,
  "sources": {
+  "weinvest": 6,
+  "stag": 3,
   "marlair": 2,
   "innovexpert": 15,
   "abras": 2,
-  "weinvest": 5,
   "gilmont": 1,
-  "simmo": 4,
-  "stag": 2
+  "simmo": 4
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Meusardennes, Nam Property, HV Immobilier : site inaccessible (connexion refusée par le proxy)",
-  "Pierre Marlair : site inaccessible (robots.txt interdit la lecture) ; ses 2 annonces non revérifiées",
-  "S-Immo : site inaccessible (redirection en boucle vers http) ; ses 4 annonces non revérifiées",
-  "Latour & Petit : site inaccessible (erreur à la lecture de la fiche)",
+  "Meusardennes, Nam Property, HV Immobilier, S-Immo, Latour & Petit, Pierre Marlair : site inaccessible (connexion refusée par le proxy) ; annonces S-Immo et Marlair non revérifiées",
   "Abras : page appartements vide (« Aucun bien disponible ») ; ses 2 annonces ne sont plus affichées",
   "Trevi, Century 21 : annonces en JavaScript, non lues",
   "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l’agence introuvable",
+  "Stag : studio quartier Citadelle passé de 129 000 € à 119 000 € ; nouveau 4 chambres à Profondeville (118 m², 149 000 €, PEB F)",
+  "We Invest : nouvel appartement neuf à Andenne (76 m², 2 ch., PEB A, 229 000 € HTVA)",
   "Easyhome : appartements de Jambes (60 m²) et d’Andenne (71 m²) toujours écartés (vendus selon leur fiche)",
   "Innov’Expert : Mazy (Namur), Masuis Jambois (Jambes), Sambreville, Ohey toujours sous option",
   "Innov’Expert : Namur place Léopold (195 000 €) et Jambes rue Kefer (219 000 €) ne figurent plus dans la liste des biens à vendre",
-  "ISEO : aucun appartement à vendre (seulement vendus ou en location)",
-  "We Invest, Stag, Gilmont : aucun nouvel appartement dans le budget",
-  "Agences : 21 annonce(s) retenue(s) sur 8 sites lus"
+  "ISEO : aucun appartement à vendre (seulement vendus ou en location) ; Gilmont : rien de nouveau dans le budget",
+  "Agences : 22 annonce(s) retenue(s) sur 7 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
