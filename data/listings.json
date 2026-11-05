@@ -1,6 +1,120 @@
 {
- "updatedAt": "2026-11-05T06:46:42.239Z",
+ "updatedAt": "2026-11-05T17:48:06.756Z",
  "listings": [
+  {
+   "id": "1ixpa56",
+   "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7912746",
+   "source": "meusardennes",
+   "sources": [
+    {
+     "name": "meusardennes",
+     "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7912746"
+    }
+   ],
+   "price": 199000,
+   "priceHistory": [
+    {
+     "d": "2026-11-05T17:48:06Z",
+     "p": 199000
+    }
+   ],
+   "firstSeen": "2026-11-05T17:48:06Z",
+   "lastSeen": "2026-11-05T17:48:06Z",
+   "title": "Appartement 2 chambres",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 78,
+   "bedrooms": 2,
+   "floor": 2,
+   "peb": "C",
+   "exterieur": false,
+   "parking": false,
+   "ascenseur": false,
+   "cave": null,
+   "charges": null,
+   "photo": "https://r2.storagewhise.eu/meusardennes/Pictures/7912746/640/b4dcb36df7504853a71f3ac22a622cb4.png",
+   "agency": "Meusardennes",
+   "publishedAt": null,
+   "extrait": "Une opportunité intéressante pour les investisseurs ! Bien actuellement loué 880 €/mois.",
+   "sale": "vente",
+   "street": "Rue Rogier 91"
+  },
+  {
+   "id": "szst06",
+   "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7905470",
+   "source": "meusardennes",
+   "sources": [
+    {
+     "name": "meusardennes",
+     "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7905470"
+    }
+   ],
+   "price": 195000,
+   "priceHistory": [
+    {
+     "d": "2026-11-05T17:48:06Z",
+     "p": 195000
+    }
+   ],
+   "firstSeen": "2026-11-05T17:48:06Z",
+   "lastSeen": "2026-11-05T17:48:06Z",
+   "title": "Appartement 1 chambre",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 59,
+   "bedrooms": 1,
+   "floor": 4,
+   "peb": "F",
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": true,
+   "cave": null,
+   "charges": null,
+   "photo": "https://r2.storagewhise.eu/meusardennes/Pictures/7905470/640/b42b0bdead9e42a4860cf5c6b310052e.jpg",
+   "agency": "Meusardennes",
+   "publishedAt": null,
+   "extrait": "Un premier achat, un nouveau chez-soi ou un investissement : à vous de choisir ! Deux balcons ; box fermé en option (25 000 €).",
+   "sale": "vente",
+   "street": "Avenue Cardinal Mercier 12"
+  },
+  {
+   "id": "21j8po",
+   "url": "https://www.namproperty.be/fr/bien/a-vendre/appartement/5000-namur/7861331",
+   "source": "namproperty",
+   "sources": [
+    {
+     "name": "namproperty",
+     "url": "https://www.namproperty.be/fr/bien/a-vendre/appartement/5000-namur/7861331"
+    }
+   ],
+   "price": 200000,
+   "priceHistory": [
+    {
+     "d": "2026-11-05T17:48:06Z",
+     "p": 200000
+    }
+   ],
+   "firstSeen": "2026-11-05T17:48:06Z",
+   "lastSeen": "2026-11-05T17:48:06Z",
+   "title": "Appartement neuf 1 chambre",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 47,
+   "bedrooms": 1,
+   "floor": null,
+   "peb": "A",
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": true,
+   "cave": null,
+   "charges": null,
+   "photo": "https://r2.storagewhise.eu/namproperty/Pictures/7861331/640/09462b8231d344999d653af8a43f007a.png",
+   "agency": "Nam Property",
+   "publishedAt": null,
+   "extrait": "Appartement neuf 1 chambre, niché dans une petite copropriété moderne de seulement six logements (prix hors TVA).",
+   "sale": "vente",
+   "street": null
+  },
   {
    "id": "kgpoug",
    "url": "https://weinvest.be/fr-BE/property/for-sale/andenne/apartment/167045",

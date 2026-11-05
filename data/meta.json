@@ -1,9 +1,11 @@
 {
- "lastRun": "2026-11-05T06:46:42.239Z",
- "added": 2,
- "priceDrops": 1,
- "total": 33,
+ "lastRun": "2026-11-05T17:48:06.756Z",
+ "added": 3,
+ "priceDrops": 0,
+ "total": 36,
  "sources": {
+  "meusardennes": 2,
+  "namproperty": 1,
   "weinvest": 6,
   "stag": 3,
   "marlair": 2,
@@ -14,17 +16,18 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Meusardennes, Nam Property, HV Immobilier, S-Immo, Latour & Petit, Pierre Marlair : site inaccessible (connexion refusée par le proxy) ; annonces S-Immo et Marlair non revérifiées",
-  "Abras : page appartements vide (« Aucun bien disponible ») ; ses 2 annonces ne sont plus affichées",
+  "Lecture directe des sites refusée cette relève pour Easyhome, S-Immo, Abras, Gilmont (liste à vendre) : passage par la recherche web ; annonces S-Immo et Abras non revérifiées",
+  "Meusardennes : 2 nouveaux appartements à Namur (rue Rogier, 78 m², 199 000 €, PEB C, loué ; av. Cardinal Mercier, 59 m², 195 000 €, PEB F) ; seule la page d'accueil a pu être lue",
+  "Nam Property : nouvel appartement neuf 1 ch. à Namur (47 m², PEB A, 200 000 € HTVA, 212 000 € TVAC à 6 %) ; seule la page d'accueil a pu être lue",
+  "HV Immobilier : aucun appartement à vendre sur la page d'accueil",
+  "Latour & Petit : Saint-Servais 2 ch. (295 000 €) sous option ; autres fiches introuvables",
+  "We Invest : Namur 239 000 € (réf. 149150) ne figure plus dans la liste des biens à vendre",
+  "Pierre Marlair : seule la page 1 (prix élevés) a pu être lue ; studio et appartement 1 ch. non revérifiés",
+  "Innov’Expert : Namur place Léopold (195 000 €) et Jambes rue Kefer (219 000 €) ne figurent plus dans la liste ; Mazy, Masuis Jambois, Sambreville, Ohey considérés toujours sous option (non revérifiés)",
+  "ISEO : aucun appartement à vendre (seulement vendus ou en location) ; Stag et Gilmont : rien de nouveau dans le budget",
   "Trevi, Century 21 : annonces en JavaScript, non lues",
   "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l’agence introuvable",
-  "Stag : studio quartier Citadelle passé de 129 000 € à 119 000 € ; nouveau 4 chambres à Profondeville (118 m², 149 000 €, PEB F)",
-  "We Invest : nouvel appartement neuf à Andenne (76 m², 2 ch., PEB A, 229 000 € HTVA)",
-  "Easyhome : appartements de Jambes (60 m²) et d’Andenne (71 m²) toujours écartés (vendus selon leur fiche)",
-  "Innov’Expert : Mazy (Namur), Masuis Jambois (Jambes), Sambreville, Ohey toujours sous option",
-  "Innov’Expert : Namur place Léopold (195 000 €) et Jambes rue Kefer (219 000 €) ne figurent plus dans la liste des biens à vendre",
-  "ISEO : aucun appartement à vendre (seulement vendus ou en location) ; Gilmont : rien de nouveau dans le budget",
-  "Agences : 22 annonce(s) retenue(s) sur 7 sites lus"
+  "Agences : 3 annonce(s) retenue(s) sur 11 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
