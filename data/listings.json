@@ -1,6 +1,87 @@
 {
- "updatedAt": "2026-11-05T17:48:06.756Z",
+ "updatedAt": "2026-11-06T06:49:22.931Z",
  "listings": [
+  {
+   "id": "6az0rn",
+   "url": "https://www.stag.immo/biens-a-vendre/appartement-deux-chambres-avec-terrasse/namur/7929816",
+   "source": "stag",
+   "sources": [
+    {
+     "name": "stag",
+     "url": "https://www.stag.immo/biens-a-vendre/appartement-deux-chambres-avec-terrasse/namur/7929816"
+    }
+   ],
+   "price": 169000,
+   "priceHistory": [
+    {
+     "d": "2026-11-06T06:49:22Z",
+     "p": 169000
+    }
+   ],
+   "firstSeen": "2026-11-06T06:49:22Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
+   "title": "Appartement deux chambres avec terrasse",
+   "commune": "Jambes",
+   "postcode": "5100",
+   "surface": 68,
+   "bedrooms": 2,
+   "floor": 5,
+   "peb": "B",
+   "exterieur": true,
+   "parking": true,
+   "ascenseur": true,
+   "cave": true,
+   "charges": null,
+   "photo": "https://r2.storagewhise.eu/storage6951/Pictures/7929816/1600/d2646d683455412d8fbd30f635060a57.jpg",
+   "agency": "Stag",
+   "publishedAt": null,
+   "extrait": "Un bien à découvrir pour sa rénovation et sa situation pratique",
+   "sale": "vente",
+   "street": "Avenue du Prince de Liège 117"
+  },
+  {
+   "id": "pvb41s",
+   "url": "https://www.pierremarlair.be/oc/liste-proprietes/acheter-0/2406-appartement-2-chambres-neuf-avec-balcon.html",
+   "source": "marlair",
+   "sources": [
+    {
+     "name": "marlair",
+     "url": "https://www.pierremarlair.be/oc/liste-proprietes/acheter-0/2406-appartement-2-chambres-neuf-avec-balcon.html"
+    },
+    {
+     "name": "marlair",
+     "url": "https://www.pierremarlair.be/oc/liste-proprietes/acheter-0/2434-appartement-2-chambres-neuf-avec-balcon.html"
+    }
+   ],
+   "price": 240000,
+   "priceHistory": [
+    {
+     "d": "2026-11-06T06:49:22Z",
+     "p": 240000
+    }
+   ],
+   "firstSeen": "2026-11-06T06:49:22Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
+   "title": "Appartement 2 chambres neuf avec balcon",
+   "commune": "Vitrival",
+   "postcode": "5070",
+   "surface": 87,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": null,
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": true,
+   "cave": null,
+   "charges": null,
+   "photo": "https://cdn.omnicasapictures.com/data.public/806-20200910090622/0/170/E3638857717663611941_2406AL.jpg?639282647988660000",
+   "agency": "Pierre Marlair & Co",
+   "publishedAt": null,
+   "extrait": "Logement neuf de deux chambres avec extérieur, dans un immeuble récent à Vitrival (TVA 6 %, parking extérieur en supplément).",
+   "sale": "vente",
+   "street": null,
+   "relistedAt": "2026-11-06T06:49:22Z"
+  },
   {
    "id": "1ixpa56",
    "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7912746",
@@ -19,7 +100,7 @@
     }
    ],
    "firstSeen": "2026-11-05T17:48:06Z",
-   "lastSeen": "2026-11-05T17:48:06Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 2 chambres",
    "commune": "Namur",
    "postcode": "5000",
@@ -57,7 +138,7 @@
     }
    ],
    "firstSeen": "2026-11-05T17:48:06Z",
-   "lastSeen": "2026-11-05T17:48:06Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 1 chambre",
    "commune": "Namur",
    "postcode": "5000",
@@ -95,7 +176,7 @@
     }
    ],
    "firstSeen": "2026-11-05T17:48:06Z",
-   "lastSeen": "2026-11-05T17:48:06Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement neuf 1 chambre",
    "commune": "Namur",
    "postcode": "5000",
@@ -171,7 +252,7 @@
     }
    ],
    "firstSeen": "2026-11-05T06:46:27Z",
-   "lastSeen": "2026-11-05T06:46:27Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 4 chambres et parking, club-house de la Hulle",
    "commune": "Profondeville",
    "postcode": "5170",
@@ -437,7 +518,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-05T06:46:27Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 1 chambre",
    "commune": "Namur",
    "postcode": "5000",
@@ -475,7 +556,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-05T06:46:27Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 2 chambres (résidence Saint-Georges, Salzinnes)",
    "commune": "Namur",
    "postcode": "5000",
@@ -513,7 +594,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-05T06:46:27Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Studio rue de Bruxelles",
    "commune": "Namur",
    "postcode": "5000",
@@ -551,7 +632,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-05T06:46:27Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 2 chambres avec parking",
    "commune": "Namur",
    "postcode": "5000",
@@ -1159,7 +1240,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-02T17:47:33.881Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 1 chambre à Cognelée",
    "commune": "Cognelée",
    "postcode": null,
@@ -1197,7 +1278,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-02T17:47:33.881Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement centre de Namur",
    "commune": "Namur",
    "postcode": null,
@@ -1235,7 +1316,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-02T17:47:33.881Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement 2 chambres",
    "commune": "Namur",
    "postcode": null,
@@ -1315,7 +1396,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-05T06:46:27Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Quartier Citadelle : studio lumineux avec terrasse",
    "commune": "Namur",
    "postcode": "5000",
@@ -1353,7 +1434,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-05T06:46:27Z",
+   "lastSeen": "2026-11-06T06:49:22Z",
    "title": "Appartement traversant 1 ch. avec terrasse (possibilité 2 ch.)",
    "commune": "Namur",
    "postcode": "5000",
