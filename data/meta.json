@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-06T17:40:01.173Z",
+ "lastRun": "2026-11-07T06:40:45.126Z",
  "added": 0,
  "priceDrops": 0,
  "total": 38,
@@ -16,10 +16,9 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites des agences inaccessibles depuis la session (lecture directe non autorisée en session non surveillée, accès réseau refusé 403 par le proxy) ; recherches web sans page d'agence exploitable",
-  "We Invest : la page « à vendre » générique ne montre aucun appartement dans la province de Namur",
-  "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable (non recherché à nouveau)",
-  "Agences : 0 annonce(s) retenue(s) sur 1 sites lus"
+  "Sites des agences inaccessibles depuis la session (proxy : connexion refusée 403 ; lecture WebFetch non autorisée en session non surveillée)",
+  "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
