@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-07T17:39:49.245Z",
+ "lastRun": "2026-11-08T06:40:32.992Z",
  "added": 0,
  "priceDrops": 0,
  "total": 38,
@@ -16,7 +16,7 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites des agences inaccessibles depuis la session (curl : connexion refusée par le proxy ; WebFetch : autorisation non accordée en session non surveillée)",
+  "Sites des agences inaccessibles depuis la session (curl : connexion refusée par le proxy, 403 ; WebFetch : autorisation non accordée en session non surveillée)",
   "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
   "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
