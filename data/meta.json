@@ -1,24 +1,30 @@
 {
- "lastRun": "2026-11-09T06:40:40.243Z",
- "added": 0,
+ "lastRun": "2026-11-09T17:44:12.483Z",
+ "added": 4,
  "priceDrops": 0,
- "total": 38,
+ "total": 42,
  "sources": {
+  "weinvest": 8,
+  "easyhome": 1,
+  "innovexpert": 20,
   "stag": 4,
   "marlair": 4,
   "meusardennes": 2,
   "namproperty": 1,
-  "weinvest": 6,
-  "innovexpert": 15,
   "abras": 2,
-  "gilmont": 1,
+  "gilmont": 2,
   "simmo": 4
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites des agences inaccessibles depuis la session (curl : connexion refusée par le proxy ; WebFetch : autorisation non accordée en session non surveillée)",
+  "Meusardennes, Nam Property, HV Immobilier : annonces illisibles (liste chargée en JavaScript, curl bloqué)",
+  "S-Immo : site inaccessible (boucle de redirection http/https)",
+  "Latour & Petit : site inaccessible (erreur client)",
+  "Trevi Namur, Century 21 : annonces chargées en JavaScript, non relevées",
+  "Abras : aucun appartement à vendre affiché ; ISEO : aucun appartement à vendre",
   "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
-  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
+  "Innov'Expert : fiches Ohey et Jambes (id 3946) sans photo, la fiche détaillée renvoyait un autre bien",
+  "Agences : 30 annonce(s) retenue(s) sur 8 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
