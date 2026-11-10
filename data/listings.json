@@ -1,6 +1,82 @@
 {
- "updatedAt": "2026-11-09T17:44:12.483Z",
+ "updatedAt": "2026-11-10T06:49:17.208Z",
  "listings": [
+  {
+   "id": "n4wpsf",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3983",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3983"
+    }
+   ],
+   "price": 180000,
+   "priceHistory": [
+    {
+     "d": "2026-11-10T06:48:37Z",
+     "p": 180000
+    }
+   ],
+   "firstSeen": "2026-11-10T06:48:37Z",
+   "lastSeen": "2026-11-10T06:48:37Z",
+   "title": "Appartement 2 chambres",
+   "commune": "Sambreville",
+   "postcode": "5060",
+   "surface": 73,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov'Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Rue de la Principauté 9"
+  },
+  {
+   "id": "1n8hy2a",
+   "url": "https://www.innov-expert.be/bien-a-vendre?id=3971",
+   "source": "innovexpert",
+   "sources": [
+    {
+     "name": "innovexpert",
+     "url": "https://www.innov-expert.be/bien-a-vendre?id=3971"
+    }
+   ],
+   "price": 119000,
+   "priceHistory": [
+    {
+     "d": "2026-11-10T06:48:37Z",
+     "p": 119000
+    }
+   ],
+   "firstSeen": "2026-11-10T06:48:37Z",
+   "lastSeen": "2026-11-10T06:48:37Z",
+   "title": "Studio",
+   "commune": "Namur",
+   "postcode": "5100",
+   "surface": 29,
+   "bedrooms": 0,
+   "floor": null,
+   "peb": null,
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": null,
+   "agency": "Innov'Expert",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": "Rue Mazy 171"
+  },
   {
    "id": "15fmvra",
    "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/173983",
@@ -107,7 +183,7 @@
     }
    ],
    "firstSeen": "2026-11-09T17:44:03.730Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-10T06:48:37Z",
    "title": "Appartement 1 chambre, Ohey",
    "commune": "Ohey",
    "postcode": "5350",
@@ -1375,7 +1451,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-10T06:48:37Z",
    "title": "Duplex 2 chambres de 95 m²",
    "commune": "Namur",
    "postcode": "5000",

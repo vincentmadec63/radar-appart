@@ -1,12 +1,12 @@
 {
- "lastRun": "2026-11-09T17:44:12.483Z",
- "added": 4,
+ "lastRun": "2026-11-10T06:49:17.208Z",
+ "added": 2,
  "priceDrops": 0,
- "total": 42,
+ "total": 44,
  "sources": {
+  "innovexpert": 22,
   "weinvest": 8,
   "easyhome": 1,
-  "innovexpert": 20,
   "stag": 4,
   "marlair": 4,
   "meusardennes": 2,
@@ -17,14 +17,17 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Meusardennes, Nam Property, HV Immobilier : annonces illisibles (liste chargée en JavaScript, curl bloqué)",
+  "Accès réseau direct (curl) bloqué depuis l'environnement de relève : Meusardennes, Nam Property, HV Immobilier (listes en JavaScript) non relevées",
+  "Lecture web refusée faute d'autorisation pour Easyhome (liste agence), Pierre Marlair, Gilmont (/biens/a-vendre) : pages de remplacement lues quand trouvées",
   "S-Immo : site inaccessible (boucle de redirection http/https)",
-  "Latour & Petit : site inaccessible (erreur client)",
+  "Latour & Petit : fiches inaccessibles (erreur client)",
   "Trevi Namur, Century 21 : annonces chargées en JavaScript, non relevées",
-  "Abras : aucun appartement à vendre affiché ; ISEO : aucun appartement à vendre",
-  "Cap Sud, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
-  "Innov'Expert : fiches Ohey et Jambes (id 3946) sans photo, la fiche détaillée renvoyait un autre bien",
-  "Agences : 30 annonce(s) retenue(s) sur 8 sites lus"
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
+  "Namur, 128 000 € (Abras) : sous compromis selon l'agence",
+  "Innov'Expert : les fiches détaillées renvoient toutes le même bien (id 3948, sous option) ; nouvelles annonces Innov'Expert sans photo",
+  "Easyhome : « appartement » Jambes 60 m² à 99 000 € = bateau vendu, écarté",
+  "We Invest Quai de l'Écluse (84 m², 199 000 €) est fusionné par erreur avec la fiche Innov'Expert Place Léopold (s00kxg) : adresses différentes, à séparer",
+  "Agences : 6 annonce(s) retenue(s) sur 9 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
