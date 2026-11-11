@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-10T17:48:47.771Z",
+ "lastRun": "2026-11-11T06:43:16.067Z",
  "added": 0,
  "priceDrops": 0,
  "total": 44,
@@ -17,12 +17,10 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Relève de 18 h 40 : lecture web des sites d'agences refusée (autorisation non accordée à temps) pour Easyhome, Meusardennes, Gilmont, ISEO, Nam Property, S-Immo ; autres agences non relues",
-  "Accès réseau direct (curl) bloqué depuis l'environnement de relève : listes en JavaScript non relevées",
-  "We Invest : la liste « à vendre » lisible ne montre aucun appartement en province de Namur",
-  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
-  "Photos manquantes (5 fiches Innov'Expert) : non complétées, fiches non lisibles",
-  "Agences : 0 annonce(s) retenue(s) sur 1 sites lus"
+  "Relève du 11/11 : lecture web des sites d'agences refusée (autorisation WebFetch non accordée à temps) ; aucune agence relue, photos non complétées",
+  "Accès réseau direct (curl) bloqué depuis l'environnement de relève (403 du proxy)",
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable (non recherché cette fois, lecture web indisponible)",
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
