@@ -1,6 +1,120 @@
 {
- "updatedAt": "2026-11-11T06:43:16.067Z",
+ "updatedAt": "2026-11-11T17:51:53.952Z",
  "listings": [
+  {
+   "id": "uvufc7",
+   "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7932185",
+   "source": "meusardennes",
+   "sources": [
+    {
+     "name": "meusardennes",
+     "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7932185"
+    }
+   ],
+   "price": 139000,
+   "priceHistory": [
+    {
+     "d": "2026-11-11T17:51:53Z",
+     "p": 139000
+    }
+   ],
+   "firstSeen": "2026-11-11T17:51:53Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
+   "title": "Appartement 1 chambre (grand studio) près de la gare",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 47,
+   "bedrooms": 1,
+   "floor": 2,
+   "peb": "B",
+   "exterieur": false,
+   "parking": null,
+   "ascenseur": false,
+   "cave": null,
+   "charges": 130,
+   "photo": "https://r2.storagewhise.eu/meusardennes/Pictures/7932185/640/c5470f9bc8b74ff99826af3625bf41b4.jpg",
+   "agency": "Meusardennes",
+   "publishedAt": null,
+   "extrait": "Grand studio idéalement situé à proximité de la gare",
+   "sale": "vente",
+   "street": "Rue Godefroid 43"
+  },
+  {
+   "id": "ulutn8",
+   "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7932184",
+   "source": "meusardennes",
+   "sources": [
+    {
+     "name": "meusardennes",
+     "url": "https://www.meusardennes.be/fr/bien/a-vendre/appartement/5000-namur/7932184"
+    }
+   ],
+   "price": 139000,
+   "priceHistory": [
+    {
+     "d": "2026-11-11T17:51:53Z",
+     "p": 139000
+    }
+   ],
+   "firstSeen": "2026-11-11T17:51:53Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
+   "title": "Appartement 1 chambre",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 43,
+   "bedrooms": 1,
+   "floor": 2,
+   "peb": "C",
+   "exterieur": false,
+   "parking": false,
+   "ascenseur": false,
+   "cave": null,
+   "charges": 150,
+   "photo": "https://r2.storagewhise.eu/meusardennes/Pictures/7932184/640/96b72b2ef9d84ae48a4bd7793d2036c2.jpg",
+   "agency": "Meusardennes",
+   "publishedAt": null,
+   "extrait": "Bien agencé, il offre un espace de vie agréable comprenant un séjour avec coin cuisine équipée et un espace nuit distinct.",
+   "sale": "vente",
+   "street": "Rue Godefroid 43"
+  },
+  {
+   "id": "qwvm4c",
+   "url": "https://abras-immo.be/achat,appartement-appartement-duplex-2-chambres-avec-terrasse-namur,7929052",
+   "source": "abras",
+   "sources": [
+    {
+     "name": "abras",
+     "url": "https://abras-immo.be/achat,appartement-appartement-duplex-2-chambres-avec-terrasse-namur,7929052"
+    }
+   ],
+   "price": 169000,
+   "priceHistory": [
+    {
+     "d": "2026-11-11T17:51:53Z",
+     "p": 169000
+    }
+   ],
+   "firstSeen": "2026-11-11T17:51:53Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
+   "title": "Duplex 2 chambres avec terrasse",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 90,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": "D",
+   "exterieur": true,
+   "parking": null,
+   "ascenseur": false,
+   "cave": true,
+   "charges": null,
+   "photo": "https://p-static.alveen.com/photos/1600/4102/c4102-b3587277-w81681079.jpg",
+   "agency": "Abras Immobilier",
+   "publishedAt": null,
+   "extrait": "Situé dans une petite copropriété de seulement 3 appartements, ce bien bénéficie de très faibles charges de copropriété",
+   "sale": "vente",
+   "street": "Boulevard Cauchy 26"
+  },
   {
    "id": "n4wpsf",
    "url": "https://www.innov-expert.be/bien-a-vendre?id=3983",
@@ -19,7 +133,7 @@
     }
    ],
    "firstSeen": "2026-11-10T06:48:37Z",
-   "lastSeen": "2026-11-10T06:48:37Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres",
    "commune": "Sambreville",
    "postcode": "5060",
@@ -57,7 +171,7 @@
     }
    ],
    "firstSeen": "2026-11-10T06:48:37Z",
-   "lastSeen": "2026-11-10T06:48:37Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Studio",
    "commune": "Namur",
    "postcode": "5100",
@@ -95,7 +209,7 @@
     }
    ],
    "firstSeen": "2026-11-09T17:44:03.730Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement lumineux avec garage et cave",
    "commune": "Namur",
    "postcode": "5000",
@@ -133,12 +247,12 @@
     }
    ],
    "firstSeen": "2026-11-09T17:44:03.730Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement une chambre avec mezzanine, 71 m²",
    "commune": "Andenne",
    "postcode": "5300",
    "surface": 71,
-   "bedrooms": null,
+   "bedrooms": 2,
    "floor": 3,
    "peb": "G",
    "exterieur": null,
@@ -183,7 +297,7 @@
     }
    ],
    "firstSeen": "2026-11-09T17:44:03.730Z",
-   "lastSeen": "2026-11-10T06:48:37Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 1 chambre, Ohey",
    "commune": "Ohey",
    "postcode": "5350",
@@ -260,7 +374,7 @@
     }
    ],
    "firstSeen": "2026-11-06T06:49:22Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement deux chambres avec terrasse",
    "commune": "Jambes",
    "postcode": "5100",
@@ -341,7 +455,7 @@
     }
    ],
    "firstSeen": "2026-11-05T17:48:06Z",
-   "lastSeen": "2026-11-06T06:49:22Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres",
    "commune": "Namur",
    "postcode": "5000",
@@ -379,7 +493,7 @@
     }
    ],
    "firstSeen": "2026-11-05T17:48:06Z",
-   "lastSeen": "2026-11-06T06:49:22Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 1 chambre",
    "commune": "Namur",
    "postcode": "5000",
@@ -417,7 +531,7 @@
     }
    ],
    "firstSeen": "2026-11-05T17:48:06Z",
-   "lastSeen": "2026-11-06T06:49:22Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement neuf 1 chambre",
    "commune": "Namur",
    "postcode": "5000",
@@ -455,7 +569,7 @@
     }
    ],
    "firstSeen": "2026-11-05T06:46:27Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement neuf 2 chambres avec terrasse",
    "commune": "Andenne",
    "postcode": "5300",
@@ -493,7 +607,7 @@
     }
    ],
    "firstSeen": "2026-11-05T06:46:27Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 4 chambres et parking, club-house de la Hulle",
    "commune": "Profondeville",
    "postcode": "5170",
@@ -607,7 +721,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Studio à Erpent",
    "commune": "Erpent",
    "postcode": "5101",
@@ -645,7 +759,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement neuf 2 chambres à Franière",
    "commune": "Franière",
    "postcode": "5150",
@@ -759,7 +873,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 1 chambre",
    "commune": "Namur",
    "postcode": "5000",
@@ -835,7 +949,7 @@
     }
    ],
    "firstSeen": "2026-10-27T17:51:28Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Studio rue de Bruxelles",
    "commune": "Namur",
    "postcode": "5000",
@@ -949,7 +1063,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres – Courrière",
    "commune": "Courrière",
    "postcode": "5336",
@@ -987,7 +1101,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -1025,7 +1139,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -1063,7 +1177,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1101,7 +1215,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1139,7 +1253,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1177,7 +1291,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -1215,7 +1329,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -1249,15 +1363,19 @@
      "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/175149"
     }
    ],
-   "price": 195000,
+   "price": 199000,
    "priceHistory": [
     {
      "d": "2026-10-25T17:43:10Z",
      "p": 195000
+    },
+    {
+     "d": "2026-11-11T17:51:53Z",
+     "p": 199000
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -1295,7 +1413,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Studio – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -1333,7 +1451,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1371,7 +1489,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1451,7 +1569,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-10T06:48:37Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Duplex 2 chambres de 95 m²",
    "commune": "Namur",
    "postcode": "5000",
@@ -1646,7 +1764,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Quartier Citadelle : studio lumineux avec terrasse",
    "commune": "Namur",
    "postcode": "5000",
@@ -1676,15 +1794,19 @@
      "url": "https://www.stag.immo/biens-a-vendre/appartement-traversant-1ch-avec-terrasse-possibilite-2-chs/namur/7807346"
     }
    ],
-   "price": 149000,
+   "price": 144000,
    "priceHistory": [
     {
      "d": "2026-10-25T11:39:30.894Z",
      "p": 149000
+    },
+    {
+     "d": "2026-11-11T17:51:53Z",
+     "p": 144000
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-09T17:44:03.730Z",
+   "lastSeen": "2026-11-11T17:51:53Z",
    "title": "Appartement traversant 1 ch. avec terrasse (possibilité 2 ch.)",
    "commune": "Namur",
    "postcode": "5000",

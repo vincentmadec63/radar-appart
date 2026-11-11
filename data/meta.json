@@ -1,26 +1,32 @@
 {
- "lastRun": "2026-11-11T06:43:16.067Z",
- "added": 0,
- "priceDrops": 0,
- "total": 44,
+ "lastRun": "2026-11-11T17:51:53.952Z",
+ "added": 3,
+ "priceDrops": 1,
+ "total": 47,
  "sources": {
+  "meusardennes": 4,
+  "abras": 3,
   "innovexpert": 22,
   "weinvest": 8,
   "easyhome": 1,
   "stag": 4,
   "marlair": 4,
-  "meusardennes": 2,
   "namproperty": 1,
-  "abras": 2,
   "gilmont": 2,
   "simmo": 4
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Relève du 11/11 : lecture web des sites d'agences refusée (autorisation WebFetch non accordée à temps) ; aucune agence relue, photos non complétées",
-  "Accès réseau direct (curl) bloqué depuis l'environnement de relève (403 du proxy)",
-  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable (non recherché cette fois, lecture web indisponible)",
-  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
+  "Lecture web limitée : les pages listées dans data/agences.json ne sont lisibles que si un moteur de recherche les renvoie ; curl bloqué (403 du proxy)",
+  "Namur, 128 000 € (Abras) : sous compromis selon l'agence",
+  "Easyhome : la fiche « appartement Jambes 60 m² » montre en fait un bateau vendu, ignorée",
+  "Innov’Expert : les fiches individuelles renvoient toutes la même page, photos impossibles à compléter",
+  "Meusardennes, HV Immobilier : liste InfiniteScroll trop longue pour la lecture web ; Meusardennes lu via sa page d'accueil, HV Immobilier : annonces illisibles",
+  "S-Immo : site inaccessible (boucle de redirection 302)",
+  "ISEO Immobilier : aucun appartement à vendre (uniquement des biens vendus)",
+  "Latour & Petit, Trevi Namur, Century 21 : annonces illisibles",
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
+  "Agences : 35 annonce(s) retenue(s) sur 13 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
