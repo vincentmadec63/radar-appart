@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-12T06:48:30.218Z",
+ "lastRun": "2026-11-12T17:50:15.836Z",
  "added": 0,
  "priceDrops": 0,
  "total": 47,
@@ -17,15 +17,14 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sous option selon Innov’Expert : Sambreville 180 000 €, Namur (rue Mazy) 119 000 €, Ohey 195 000 €, Jambes 204 250 €",
-  "Abras : aucun bien affiché sur la page des appartements (les 3 annonces Abras ne sont plus en ligne)",
-  "We Invest : la page ne montre que 10 biens récents, aucun en province de Namur",
-  "Meusardennes, Nam Property, HV Immobilier : annonces illisibles (liste InfiniteScroll en JavaScript, curl bloqué par le proxy)",
-  "Latour & Petit : annonces illisibles (liste chargée en JavaScript)",
-  "Trevi Namur, Century 21 : site inaccessible (lecture web refusée)",
+  "Easyhome : l'appartement de Jambes (rue des Peupliers, 99 000 €) est marqué vendu sur la fiche, non retenu",
+  "Abras : aucun bien affiché sur la page des appartements",
   "ISEO Immobilier : aucun appartement à vendre",
+  "We Invest, Pierre Marlair, Innov’Expert, Latour & Petit : lecture web non autorisée pendant cette relève (annonces précédentes conservées)",
+  "Meusardennes, Nam Property, HV Immobilier : annonces illisibles (liste InfiniteScroll en JavaScript, curl bloqué par le proxy)",
+  "Trevi Namur, Century 21 : site inaccessible (lecture web refusée)",
   "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l’agence introuvable",
-  "Agences : 25 annonce(s) retenue(s) sur 13 sites lus"
+  "Agences : 9 annonce(s) retenue(s) sur 6 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
