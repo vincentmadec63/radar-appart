@@ -1,7 +1,7 @@
 {
- "lastRun": "2026-11-11T17:51:53.952Z",
- "added": 3,
- "priceDrops": 1,
+ "lastRun": "2026-11-12T06:48:30.218Z",
+ "added": 0,
+ "priceDrops": 0,
  "total": 47,
  "sources": {
   "meusardennes": 4,
@@ -17,16 +17,15 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Lecture web limitée : les pages listées dans data/agences.json ne sont lisibles que si un moteur de recherche les renvoie ; curl bloqué (403 du proxy)",
-  "Namur, 128 000 € (Abras) : sous compromis selon l'agence",
-  "Easyhome : la fiche « appartement Jambes 60 m² » montre en fait un bateau vendu, ignorée",
-  "Innov’Expert : les fiches individuelles renvoient toutes la même page, photos impossibles à compléter",
-  "Meusardennes, HV Immobilier : liste InfiniteScroll trop longue pour la lecture web ; Meusardennes lu via sa page d'accueil, HV Immobilier : annonces illisibles",
-  "S-Immo : site inaccessible (boucle de redirection 302)",
-  "ISEO Immobilier : aucun appartement à vendre (uniquement des biens vendus)",
-  "Latour & Petit, Trevi Namur, Century 21 : annonces illisibles",
-  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
-  "Agences : 35 annonce(s) retenue(s) sur 13 sites lus"
+  "Sous option selon Innov’Expert : Sambreville 180 000 €, Namur (rue Mazy) 119 000 €, Ohey 195 000 €, Jambes 204 250 €",
+  "Abras : aucun bien affiché sur la page des appartements (les 3 annonces Abras ne sont plus en ligne)",
+  "We Invest : la page ne montre que 10 biens récents, aucun en province de Namur",
+  "Meusardennes, Nam Property, HV Immobilier : annonces illisibles (liste InfiniteScroll en JavaScript, curl bloqué par le proxy)",
+  "Latour & Petit : annonces illisibles (liste chargée en JavaScript)",
+  "Trevi Namur, Century 21 : site inaccessible (lecture web refusée)",
+  "ISEO Immobilier : aucun appartement à vendre",
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l’agence introuvable",
+  "Agences : 25 annonce(s) retenue(s) sur 13 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
