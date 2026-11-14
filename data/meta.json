@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-13T17:49:41.342Z",
+ "lastRun": "2026-11-14T06:45:29.358Z",
  "added": 0,
  "priceDrops": 0,
  "total": 47,
@@ -17,12 +17,9 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Gilmont, ISEO, Abras, Stag, We Invest, Pierre Marlair, Latour & Petit, Innov'Expert : lecture web non autorisée pendant cette relève (demande d'autorisation sans réponse), annonces précédentes conservées",
-  "Meusardennes, Nam Property, HV Immobilier : annonces illisibles (curl bloqué par le proxy)",
-  "Trevi Namur, Century 21 : annonces chargées en JavaScript, non lues",
-  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
-  "Easyhome : l'« appartement » de Jambes à 99 000 € est un bateau, vendu : écarté",
-  "Agences : 0 annonce(s) retenue(s) sur 2 sites lus"
+  "Sites des agences : lecture web non autorisée pendant cette relève (demande d'autorisation sans réponse) et accès direct bloqué par le proxy (403) ; annonces précédentes conservées",
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable (non recherché cette fois)",
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
