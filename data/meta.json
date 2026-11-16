@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-15T17:43:08.946Z",
+ "lastRun": "2026-11-16T06:43:30.002Z",
  "added": 0,
  "priceDrops": 0,
  "total": 47,
@@ -17,8 +17,8 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites des agences : lecture web non autorisée pendant cette relève (demande d'autorisation sans réponse) et accès direct bloqué par le proxy (403) ; annonces précédentes conservées",
-  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable (non recherché, lecture web indisponible)",
+  "Sites des agences : lecture web non autorisée (demande d'autorisation sans réponse) et accès direct refusé par le proxy de la session ; annonces précédentes conservées",
+  "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence pas encore trouvé (recherche web sans résultat exploitable)",
   "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
