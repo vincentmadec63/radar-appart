@@ -1,7 +1,7 @@
 {
- "lastRun": "2026-11-17T06:48:15.135Z",
- "added": 1,
- "priceDrops": 1,
+ "lastRun": "2026-11-17T17:43:53.166Z",
+ "added": 0,
+ "priceDrops": 0,
  "total": 48,
  "sources": {
   "weinvest": 9,
@@ -17,18 +17,9 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Meusardennes, Nam Property, HV Immobilier : annonces illisibles (liste chargée en JavaScript, adresse InfiniteScroll trop longue pour la lecture web, accès direct refusé par le proxy)",
-  "S-Immo : site inaccessible (redirection https vers http en boucle)",
-  "Trevi Namur, Century 21 : annonces chargées en JavaScript, non lues (biens visibles sur Immoweb)",
-  "Latour & Petit : aucun appartement en province de Namur sur la page d'accueil (liste complète : latouretpetit.be/nos-biens/vente)",
-  "ISEO : tous les appartements affichés sont vendus",
+  "Relève du 17/11 soir : sites d'agences non lus (lecture web non autorisée pour cette session non surveillée ; accès direct refusé par le proxy, code 403). Annonces existantes conservées telles quelles.",
   "Cap Sud Namur, ERA (Namur), ED Immo, AD-Immo : site de l'agence introuvable",
-  "Namur, 128 000 € (Abras, 56 m²) : sous compromis selon l'agence",
-  "Ohey, 195 000 € (Innov'Expert, Clos de Maillen, 3 autres lots) : sous option, non ajoutés",
-  "Easyhome Jambes 60 m², 99 000 € : fiche décrivant un bateau-logement, non ajoutée",
-  "We Invest Namur, Quai de l'Écluse 7, 84 m², 199 000 € : rattaché par la fusion à l'annonce Innov'Expert de la place Léopold (même prix et surface), à vérifier",
-  "Pierre Marlair, Vitrival : 3 autres lots neufs à 240 000 € (n° 2434, 2441, 2442) rattachés à l'annonce existante",
-  "Agences : 12 annonce(s) retenue(s) sur 12 sites lus"
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
