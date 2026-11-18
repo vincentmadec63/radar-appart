@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-18T06:52:54.282Z",
+ "lastRun": "2026-11-18T17:45:29.195Z",
  "added": 0,
  "priceDrops": 0,
  "total": 48,
@@ -17,18 +17,15 @@
  },
  "notes": [
   "Aucune alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Cap Sud Namur : site de l'agence introuvable",
-  "ERA (Namur) : site de l'agence introuvable",
-  "ED Immo : site de l'agence introuvable",
-  "AD-Immo : site de l'agence introuvable",
-  "Meusardennes : annonces illisibles",
-  "Nam Property : annonces illisibles",
-  "HV Immobilier : annonces illisibles",
-  "Trevi Namur : annonces illisibles",
-  "Century 21 : annonces illisibles",
-  "Abras Immobilier, Stag, We Invest Namur, Pierre Marlair & Co, Latour & Petit, Innov'Expert : site inaccessible (lecture web non autorisée pour cette session)",
-  "Easyhome : l'« appartement » de Jambes à 99 000 € est en fait un bateau, marqué vendu — écarté",
-  "Agences : 4 annonce(s) retenue(s) sur 4 sites lus"
+  "Cap Sud Namur : site de l’agence introuvable",
+  "ERA (Namur) : site de l’agence introuvable",
+  "ED Immo : site de l’agence introuvable",
+  "AD-Immo : site de l’agence introuvable",
+  "Meusardennes, Nam Property, HV Immobilier : site inaccessible (403 du proxy)",
+  "Easyhome, Gilmont, ISEO, Pierre Marlair & Co, Latour & Petit, Innov’Expert, Trevi Namur, Century 21 : site inaccessible (lecture web non autorisée pour cette session)",
+  "S-Immo : site inaccessible (boucle de redirection https→http)",
+  "Namur, 128 000 € (Abras) : sous compromis selon l’agence",
+  "Agences : 11 annonce(s) retenue(s) sur 3 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
