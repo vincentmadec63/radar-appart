@@ -1,6 +1,234 @@
 {
- "updatedAt": "2026-11-19T06:44:01.331Z",
+ "updatedAt": "2026-11-19T08:17:17.751Z",
  "listings": [
+  {
+   "id": "a8vqku",
+   "url": "https://dubailimmobilier.be/announce/Q5tL9huI9PGyfAfvrgCG",
+   "source": "dubail",
+   "sources": [
+    {
+     "name": "dubail",
+     "url": "https://dubailimmobilier.be/announce/Q5tL9huI9PGyfAfvrgCG"
+    }
+   ],
+   "price": 149000,
+   "priceHistory": [
+    {
+     "d": "2026-11-19T08:17:17Z",
+     "p": 149000
+    }
+   ],
+   "firstSeen": "2026-11-19T08:17:17Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
+   "title": "Appartement 1 chambre rénové",
+   "commune": "Namur",
+   "postcode": "5000",
+   "surface": 45,
+   "bedrooms": 1,
+   "floor": null,
+   "peb": "D",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://dubailimmobilier.be/storage/annonce/2026/11/251/images/REteHsvKJMa8MitPYJBuXaEUlNMwPQ29qogjGW8R.webp",
+   "agency": "Dubail Immobilier",
+   "publishedAt": null,
+   "extrait": "Appartement 1 chambre rénové de 45 m² dans un bâtiment classé, en plein centre de Namur.",
+   "sale": "vente",
+   "street": "Place Marché aux Légumes 15"
+  },
+  {
+   "id": "1jm0u6h",
+   "url": "https://www.agencepetyt.be/nos-biens/consult/928",
+   "source": "petyt",
+   "sources": [
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/928"
+    }
+   ],
+   "price": 230000,
+   "priceHistory": [
+    {
+     "d": "2026-11-19T08:17:17Z",
+     "p": 230000
+    }
+   ],
+   "firstSeen": "2026-11-19T08:17:17Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
+   "title": "Appartement 2 chambres",
+   "commune": "Jambes",
+   "postcode": null,
+   "surface": 100,
+   "bedrooms": 2,
+   "floor": null,
+   "peb": "B",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://www.agencepetyt.be/images/property/4332956.webp?1795062763",
+   "agency": "Agence Petyt",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "1gkbijq",
+   "url": "https://www.agencepetyt.be/nos-biens/consult/903",
+   "source": "petyt",
+   "sources": [
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/903"
+    }
+   ],
+   "price": 115000,
+   "priceHistory": [
+    {
+     "d": "2026-11-19T08:17:17Z",
+     "p": 115000
+    }
+   ],
+   "firstSeen": "2026-11-19T08:17:17Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
+   "title": "Appartement 1 chambre",
+   "commune": "Namur",
+   "postcode": null,
+   "surface": 29,
+   "bedrooms": 1,
+   "floor": null,
+   "peb": "C",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://www.agencepetyt.be/images/property/4332681.webp?1795062322",
+   "agency": "Agence Petyt",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "1g0cb5s",
+   "url": "https://www.agencepetyt.be/nos-biens/consult/901",
+   "source": "petyt",
+   "sources": [
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/901"
+    }
+   ],
+   "price": 119000,
+   "priceHistory": [
+    {
+     "d": "2026-11-19T08:17:17Z",
+     "p": 119000
+    }
+   ],
+   "firstSeen": "2026-11-19T08:17:17Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
+   "title": "Appartement 1 chambre",
+   "commune": "Saint-Servais",
+   "postcode": null,
+   "surface": 27,
+   "bedrooms": 1,
+   "floor": null,
+   "peb": "B",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://www.agencepetyt.be/images/property/4332660.webp?1795062278",
+   "agency": "Agence Petyt",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "p6ulpq",
+   "url": "https://www.agencepetyt.be/nos-biens/consult/899",
+   "source": "petyt",
+   "sources": [
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/899"
+    }
+   ],
+   "price": 179000,
+   "priceHistory": [
+    {
+     "d": "2026-11-19T08:17:17Z",
+     "p": 179000
+    }
+   ],
+   "firstSeen": "2026-11-19T08:17:17Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
+   "title": "Appartement 3 chambres",
+   "commune": "Profondeville",
+   "postcode": null,
+   "surface": 100,
+   "bedrooms": 3,
+   "floor": null,
+   "peb": "D",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://www.agencepetyt.be/images/property/4332647.webp?1795062253",
+   "agency": "Agence Petyt",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
+  {
+   "id": "pgu7ep",
+   "url": "https://www.agencepetyt.be/nos-biens/consult/898",
+   "source": "petyt",
+   "sources": [
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/898"
+    }
+   ],
+   "price": 199000,
+   "priceHistory": [
+    {
+     "d": "2026-11-19T08:17:17Z",
+     "p": 199000
+    }
+   ],
+   "firstSeen": "2026-11-19T08:17:17Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
+   "title": "Appartement 3 chambres",
+   "commune": "Sorée",
+   "postcode": null,
+   "surface": 110,
+   "bedrooms": 3,
+   "floor": null,
+   "peb": "B",
+   "exterieur": null,
+   "parking": null,
+   "ascenseur": null,
+   "cave": null,
+   "charges": null,
+   "photo": "https://www.agencepetyt.be/images/property/4332630.webp?1795062216",
+   "agency": "Agence Petyt",
+   "publishedAt": null,
+   "extrait": null,
+   "sale": "vente",
+   "street": null
+  },
   {
    "id": "qvu0kf",
    "url": "https://weinvest.be/fr-BE/property/for-sale/namur/apartment/174989",
@@ -339,7 +567,7 @@
     }
    ],
    "firstSeen": "2026-11-09T17:44:03.730Z",
-   "lastSeen": "2026-11-17T06:48:01Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
    "title": "Appartement 1 chambre, Ohey",
    "commune": "Ohey",
    "postcode": "5350",
@@ -1619,7 +1847,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-18T06:52:49Z",
+   "lastSeen": "2026-11-19T08:17:17Z",
    "title": "Duplex 2 chambres de 95 m²",
    "commune": "Namur",
    "postcode": "5000",

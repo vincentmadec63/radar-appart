@@ -1,9 +1,11 @@
 {
- "lastRun": "2026-11-19T06:44:01.331Z",
- "added": 0,
+ "lastRun": "2026-11-19T08:17:17.751Z",
+ "added": 6,
  "priceDrops": 0,
- "total": 48,
+ "total": 54,
  "sources": {
+  "dubail": 1,
+  "petyt": 5,
   "weinvest": 9,
   "meusardennes": 4,
   "abras": 3,
@@ -21,9 +23,12 @@
   "ERA (Namur) : site de l’agence introuvable",
   "ED Immo : site de l’agence introuvable",
   "AD-Immo : site de l’agence introuvable",
-  "Easyhome, Meusardennes, Gilmont, ISEO, Nam Property, S-Immo, HV Immobilier, Abras, Stag, We Invest, Pierre Marlair & Co, Latour & Petit, Innov’Expert : site inaccessible (403 du proxy ; lecture web non autorisée pour cette session)",
-  "Trevi Namur, Century 21 : annonces chargées en JavaScript, sites inaccessibles (403 du proxy)",
-  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
+  "Meusardennes, Nam Property, HV Immobilier, Trevi Namur, Century 21, Express-Immo Prestige : annonces illisibles (JavaScript)",
+  "Abras Immobilier, Stag, We Invest Namur, Pierre Marlair & Co : site inaccessible (lecture web non autorisée pour cette session)",
+  "S-Immo : pages 2 et 3 renvoient la page 1 (pagination en JavaScript)",
+  "Easyhome, Jambes, 99 000 € : vendu selon l’agence (bateau-logement)",
+  "Innov’Expert : fiches Ohey (lots 3974-3976) illisibles sans l’adresse complète, pas de photo",
+  "Agences : 10 annonce(s) retenue(s) sur 9 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
