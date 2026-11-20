@@ -1,11 +1,11 @@
 {
- "lastRun": "2026-11-19T17:43:18.326Z",
- "added": 0,
+ "lastRun": "2026-11-20T06:44:40.599Z",
+ "added": 3,
  "priceDrops": 0,
- "total": 54,
+ "total": 57,
  "sources": {
+  "petyt": 11,
   "dubail": 1,
-  "petyt": 5,
   "weinvest": 9,
   "meusardennes": 4,
   "abras": 3,
@@ -19,12 +19,18 @@
  },
  "notes": [
   "Aucune nouvelle alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites des agences non lus : la lecture web (WebFetch) n'a pas été autorisée pour cette relève automatique (demande d'autorisation sans réponse)",
+  "Meusardennes : annonces illisibles (JavaScript)",
+  "Nam Property : annonces illisibles (JavaScript)",
+  "HV Immobilier : annonces illisibles (JavaScript)",
+  "Trevi Namur : annonces illisibles (JavaScript)",
+  "Century 21 : annonces illisibles (JavaScript)",
+  "Express-Immo Prestige : annonces illisibles (JavaScript)",
   "Cap Sud Namur : site de l’agence introuvable",
   "ERA (Namur) : site de l’agence introuvable",
   "ED Immo : site de l’agence introuvable",
   "AD-Immo : site de l’agence introuvable",
-  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
+  "Innov’Expert : 3 appartements à Ohey (Clos de Maillen) sous option, écartés",
+  "Agences : 32 annonce(s) retenue(s) sur 12 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
