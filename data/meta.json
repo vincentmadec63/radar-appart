@@ -1,7 +1,7 @@
 {
- "lastRun": "2026-11-21T17:41:54.736Z",
+ "lastRun": "2026-11-22T06:43:56.089Z",
  "added": 0,
- "priceDrops": 1,
+ "priceDrops": 0,
  "total": 57,
  "sources": {
   "petyt": 11,
@@ -19,18 +19,12 @@
  },
  "notes": [
   "Aucune nouvelle alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
+  "Relève du 22/11 matin : aucune page d’agence lue — la lecture web (WebFetch) a été refusée dans cette session (PROVENANCE_REQUIRED, demande d’autorisation sans réponse) ; annonces existantes conservées telles quelles",
   "Cap Sud Namur : site de l’agence introuvable",
   "ERA (Namur) : site de l’agence introuvable",
   "ED Immo : site de l’agence introuvable",
   "AD-Immo : site de l’agence introuvable",
-  "Meusardennes : annonces illisibles (JavaScript)",
-  "Nam Property : annonces illisibles (JavaScript)",
-  "HV Immobilier : annonces illisibles (JavaScript)",
-  "Trevi Namur : annonces illisibles (JavaScript)",
-  "Century 21 : annonces illisibles (JavaScript)",
-  "Express-Immo Prestige : annonces illisibles (JavaScript)",
-  "Innov’Expert : Sambreville (Principauté 9), Ohey Clos de Maillen 1/2, 1/5, 3/2 et Namur rue Mazy 171 sous option ; non ajoutés",
-  "Agences : 30 annonce(s) retenue(s) sur 18 sites lus"
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
