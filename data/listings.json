@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-24T06:43:37.679Z",
+ "updatedAt": "2026-11-24T17:45:32.145Z",
  "listings": [
   {
    "id": "oe21u1",
@@ -85,6 +85,10 @@
     {
      "name": "petyt",
      "url": "https://www.agencepetyt.be/nos-biens/consult/813"
+    },
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/873"
     }
    ],
    "price": 199000,
@@ -95,7 +99,7 @@
     }
    ],
    "firstSeen": "2026-11-20T06:44:12Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 3 chambres",
    "commune": "Sorée",
    "postcode": "5340",
@@ -113,7 +117,8 @@
    "publishedAt": null,
    "extrait": null,
    "sale": "vente",
-   "street": null
+   "street": null,
+   "relistedAt": "2026-11-24T17:44:57.801Z"
   },
   {
    "id": "a8vqku",
@@ -133,7 +138,7 @@
     }
    ],
    "firstSeen": "2026-11-19T08:17:17Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 1 chambre rénové",
    "commune": "Namur",
    "postcode": "5000",
@@ -217,7 +222,7 @@
     }
    ],
    "firstSeen": "2026-11-19T08:17:17Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 1 chambre",
    "commune": "Namur",
    "postcode": null,
@@ -284,6 +289,10 @@
     {
      "name": "petyt",
      "url": "https://www.agencepetyt.be/nos-biens/consult/899"
+    },
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/872"
     }
    ],
    "price": 179000,
@@ -294,7 +303,7 @@
     }
    ],
    "firstSeen": "2026-11-19T08:17:17Z",
-   "lastSeen": "2026-11-19T08:17:17Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 3 chambres",
    "commune": "Profondeville",
    "postcode": null,
@@ -312,7 +321,8 @@
    "publishedAt": null,
    "extrait": null,
    "sale": "vente",
-   "street": null
+   "street": null,
+   "relistedAt": "2026-11-24T17:44:57.801Z"
   },
   {
    "id": "pgu7ep",
@@ -326,6 +336,10 @@
     {
      "name": "petyt",
      "url": "https://www.agencepetyt.be/nos-biens/consult/814"
+    },
+    {
+     "name": "petyt",
+     "url": "https://www.agencepetyt.be/nos-biens/consult/874"
     }
    ],
    "price": 199000,
@@ -336,7 +350,7 @@
     }
    ],
    "firstSeen": "2026-11-19T08:17:17Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 3 chambres",
    "commune": "Sorée",
    "postcode": "5340",
@@ -355,7 +369,7 @@
    "extrait": null,
    "sale": "vente",
    "street": null,
-   "relistedAt": "2026-11-20T06:44:12Z"
+   "relistedAt": "2026-11-24T17:44:57.801Z"
   },
   {
    "id": "qvu0kf",
@@ -527,7 +541,7 @@
     }
    ],
    "firstSeen": "2026-11-10T06:48:37Z",
-   "lastSeen": "2026-11-20T06:44:12Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 2 chambres",
    "commune": "Sambreville",
    "postcode": "5060",
@@ -565,7 +579,7 @@
     }
    ],
    "firstSeen": "2026-11-10T06:48:37Z",
-   "lastSeen": "2026-11-20T06:44:12Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Studio",
    "commune": "Namur",
    "postcode": "5100",
@@ -645,7 +659,7 @@
     }
    ],
    "firstSeen": "2026-11-09T17:44:03.730Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement une chambre avec mezzanine, 71 m²",
    "commune": "Andenne",
    "postcode": "5300",
@@ -695,7 +709,7 @@
     }
    ],
    "firstSeen": "2026-11-09T17:44:03.730Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 1 chambre, Ohey",
    "commune": "Ohey",
    "postcode": "5350",
@@ -772,7 +786,7 @@
     }
    ],
    "firstSeen": "2026-11-06T06:49:22Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement deux chambres avec terrasse",
    "commune": "Jambes",
    "postcode": "5100",
@@ -1127,7 +1141,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Studio à Erpent",
    "commune": "Erpent",
    "postcode": "5101",
@@ -1165,7 +1179,7 @@
     }
    ],
    "firstSeen": "2026-11-01T17:53:50Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement neuf 2 chambres à Franière",
    "commune": "Franière",
    "postcode": "5150",
@@ -1469,7 +1483,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 2 chambres – Courrière",
    "commune": "Courrière",
    "postcode": "5336",
@@ -1507,7 +1521,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -1545,7 +1559,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Studio – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -1583,7 +1597,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1621,7 +1635,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1659,7 +1673,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1697,7 +1711,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 2 chambres – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -1739,7 +1753,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 2 chambres – Jambes",
    "commune": "Jambes",
    "postcode": "5100",
@@ -1823,7 +1837,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Studio – Namur",
    "commune": "Namur",
    "postcode": "5000",
@@ -1861,7 +1875,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 2 chambres – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -1899,7 +1913,7 @@
     }
    ],
    "firstSeen": "2026-10-25T17:43:10Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 1 chambre – Jemeppe-sur-Sambre",
    "commune": "Jemeppe-sur-Sambre",
    "postcode": "5190",
@@ -2018,7 +2032,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement 1 chambre à Cognelée",
    "commune": "Cognelée",
    "postcode": null,
@@ -2056,7 +2070,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement centre de Namur",
    "commune": "Namur",
    "postcode": null,
@@ -2174,7 +2188,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Quartier Citadelle : studio lumineux avec terrasse",
    "commune": "Namur",
    "postcode": "5000",
@@ -2216,7 +2230,7 @@
     }
    ],
    "firstSeen": "2026-10-25T11:39:30.894Z",
-   "lastSeen": "2026-11-21T17:40:54.476Z",
+   "lastSeen": "2026-11-24T17:44:57.801Z",
    "title": "Appartement traversant 1 ch. avec terrasse (possibilité 2 ch.)",
    "commune": "Namur",
    "postcode": "5000",
