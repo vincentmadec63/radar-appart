@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-24T17:45:32.145Z",
+ "lastRun": "2026-11-25T06:44:46.844Z",
  "added": 0,
  "priceDrops": 0,
  "total": 57,
@@ -19,19 +19,12 @@
  },
  "notes": [
   "Aucune nouvelle alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Meusardennes : annonces illisibles (JavaScript)",
-  "Nam Property : annonces illisibles (JavaScript)",
-  "HV Immobilier : annonces illisibles (JavaScript)",
-  "Trevi Namur : annonces illisibles (JavaScript)",
-  "Century 21 : annonces illisibles (JavaScript)",
-  "Express-Immo Prestige : annonces illisibles (JavaScript)",
+  "Sites d'agences non relus cette fois : la lecture web (WebFetch) a été refusée par la session (permission PROVENANCE_REQUIRED non accordée), les annonces existantes sont conservées",
   "Cap Sud Namur : site de l’agence introuvable",
   "ERA (Namur) : site de l’agence introuvable (seules des fiches du réseau era.be trouvées)",
   "ED Immo : site de l’agence introuvable",
   "AD-Immo : site de l’agence introuvable",
-  "Easyhome Jambes 99 000 € : vendu selon l’agence (et il s’agit d’un bateau, pas d’un appartement)",
-  "We Invest : la page « à vendre » ne montre que 10 biens récents nationaux, aucun appartement namurois visible",
-  "Agences : 32 annonce(s) retenue(s) sur 12 sites lus"
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
