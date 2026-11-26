@@ -1,9 +1,11 @@
 {
- "lastRun": "2026-11-25T17:43:27.122Z",
- "added": 0,
+ "lastRun": "2026-11-26T06:44:05.720Z",
+ "added": 2,
  "priceDrops": 0,
- "total": 57,
+ "total": 59,
  "sources": {
+  "hvimmo": 1,
+  "latourpetit": 1,
   "petyt": 14,
   "dubail": 1,
   "weinvest": 9,
@@ -19,12 +21,19 @@
  },
  "notes": [
   "Aucune nouvelle alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Sites d'agences non relus cette fois : la lecture web (WebFetch) a été refusée par la session (PROVENANCE_REQUIRED : demande d'autorisation sans réponse), les annonces existantes sont conservées",
+  "Meusardennes : annonces illisibles (JavaScript)",
+  "Nam Property : annonces illisibles (JavaScript)",
+  "Trevi Namur : annonces illisibles (JavaScript)",
+  "Century 21 : annonces illisibles (JavaScript)",
+  "Express-Immo Prestige : annonces illisibles (JavaScript)",
+  "Abras Immobilier : aucun bien affiché sur le site (« aucun bien disponible »)",
   "Cap Sud Namur : site de l’agence introuvable",
   "ERA (Namur) : site de l’agence introuvable",
   "ED Immo : site de l’agence introuvable",
   "AD-Immo : site de l’agence introuvable",
-  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
+  "Profondeville, 149 000 € (Stag) : sous option selon l’agence",
+  "Namur, 195 000 € (Gilmont, duplex 95 m²) : sous option selon l’agence",
+  "Agences : 32 annonce(s) retenue(s) sur 14 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
