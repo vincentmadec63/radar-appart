@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-26T17:42:02.112Z",
+ "lastRun": "2026-11-27T06:44:23.589Z",
  "added": 0,
  "priceDrops": 0,
  "total": 59,
@@ -21,21 +21,12 @@
  },
  "notes": [
   "Aucune nouvelle alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Meusardennes : annonces illisibles (JavaScript)",
-  "Nam Property : annonces illisibles (JavaScript)",
-  "Trevi Namur : annonces illisibles (JavaScript)",
-  "Century 21 : annonces illisibles (JavaScript)",
-  "Express-Immo Prestige : annonces illisibles (JavaScript)",
-  "Latour & Petit : site inaccessible (lecture refusée)",
-  "Abras Immobilier : aucun bien affiché sur le site (« aucun bien disponible »)",
+  "Relève agences impossible ce matin : la lecture des sites a été bloquée (demande d'autorisation de lecture web restée sans réponse) pour les 18 sites ; aucune annonce n'a été relevée, la liste existante est conservée",
   "Cap Sud Namur : site de l’agence introuvable",
   "ERA (Namur) : site de l’agence introuvable",
   "ED Immo : site de l’agence introuvable",
   "AD-Immo : site de l’agence introuvable",
-  "Profondeville, 149 000 € (Stag) : sous option selon l’agence",
-  "Namur, 195 000 € (Gilmont, duplex 95 m²) : sous option selon l’agence",
-  "Ohey, 195 000 € (Innov’Expert, 3 lots Clos de Maillen) : sous option selon l’agence",
-  "Agences : 27 annonce(s) retenue(s) sur 12 sites lus"
+  "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
  ],
  "schedule": "Relève vers 7 h 40 et 18 h 40"
 }
