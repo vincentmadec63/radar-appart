@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-28T06:43:34.517Z",
+ "lastRun": "2026-11-28T17:43:37.735Z",
  "added": 0,
  "priceDrops": 0,
  "total": 59,
@@ -21,9 +21,9 @@
  },
  "notes": [
   "Aucune nouvelle alerte portail reçue sur 10 jours : vérifier que les alertes Immoweb, Zimmo et Immovlan sont créées vers vincentmadec63+appart@gmail.com",
-  "Relève agences impossible : la lecture des 18 sites a été bloquée (autorisation de lecture web restée sans réponse, PROVENANCE_REQUIRED) ; la liste existante est conservée",
+  "Relève agences impossible : la lecture des 18 sites a encore été bloquée (autorisation de lecture web restée sans réponse, PROVENANCE_REQUIRED) ; la liste existante est conservée",
   "Cap Sud Namur : site de l’agence introuvable",
-  "ERA (Namur) : site de l’agence introuvable",
+  "ERA (Namur) : site de l’agence introuvable (seul le site du réseau era.be apparaît)",
   "ED Immo : site de l’agence introuvable",
   "AD-Immo : site de l’agence introuvable",
   "Agences : 0 annonce(s) retenue(s) sur 0 sites lus"
